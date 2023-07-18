@@ -15,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+	이렇게 바꿀수 있어.
           Learn React
         </a>
       </header>
