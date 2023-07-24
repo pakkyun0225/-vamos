@@ -2,701 +2,237 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const sectionTitleStyle = {
+    color: '#000000',
+    borderBottomColor: '#cccccc'
+  };
   return (
-    < body>
-      < div id="__next">
-        < div id="root">
-          < header class="Header_Header">
-            < div class="Header_content">
-              < div class="Header_title"> pakk's Portfolio</div>
-              <div class="Header_navigation-menus">
-                <div class="Header_navigation-menu">About me</div>
-                <div class="Header_navigation-menu">Skills</div>
-                <div class="Header_navigation-menu">Archiving</div>
-                <div class="Header_navigation-menu">Projects</div>
-                <div class="Header_navigation-menu">Career</div>
+    <body>
+      <div id="__next">
+        <div id="root">
+          <header class="Header_Header__bkfyR ">
+            <div class="Header_content__FPfsl">
+              <div class="Header_title__u692O">CDG's Portfolio</div>
+              <div class="Header_navigation-menus__p_A9O">
+                <div class="Header_navigation-menu__8vdQ1">About me</div>
+                <div class="Header_navigation-menu__8vdQ1">Skills</div>
+                <div class="Header_navigation-menu__8vdQ1">Archiving</div>
+                <div class="Header_navigation-menu__8vdQ1">Projects</div>
+                <div class="Header_navigation-menu__8vdQ1">Career</div>
               </div>
             </div>
           </header>
-          <div class="Masthead_Masthead">
-            <div class="Masthead_content">
-              <div class="Masthead_title">- 박현준 -<br>웹 개발자 포트폴리오</div>
-              <hr class="Masthead_divider">
-                <div class="Masthead_description">안녕하세요.<br>공부가 취미인 풀 스택 웹 개발자입니다.<br>매우 꼼꼼한 성격, 그리고 공부를 밥 먹듯이 하는 습관이 저의 장점입니다.</div>
-                  <div class="Masthead_find-out-more">더 알아보기 ↓</div>
-                </div>
-            </div>
-            <article class="AboutMe_AboutMe" id="about-me">
-              <div class="AboutMe_content">
-                <div class="SectionTitle_SectionTitle">
-                  <div class="SectionTitle_text" style="color:#000000;border-bottom-color:#cccccc">ABOUT ME</div>
-                  <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link" src="/images/black-link.png" alt=""></div>
-                </div>
-                <div class="AboutMe_basic-infos">
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/person-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">이름</div>
-                        <div class="AboutMe_field-value">박현준</div>
-                      </div>
-                    </div>
+          <div class="Masthead_Masthead__AqKEv">
+                  <div class="Masthead_content__lswMP">
+                      <div class="Masthead_title__UKtcP">- 최덕경 -<br/>웹 개발자 포트폴리오</div>
+                      <hr class="Masthead_divider___SbfQ" />
+                      <div class="Masthead_description__VWTuB">안녕하세요.<br />공부가 취미인 풀 스택 웹 개발자입니다.<br />매우 꼼꼼한 성격, 그리고 공부를 밥 먹듯이 하는 습관이 저의 장점입니다.</div>
+                      <div class="Masthead_find-out-more__8C_Rn">더 알아보기 ↓</div>
                   </div>
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/calendar-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">생년월일</div>
-                        <div class="AboutMe_field-value">96.02.25</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/geo-alt-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">주소지</div>
-                        <div class="AboutMe_field-value">안산시 단원구</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/telephone-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">연락처</div>
-                        <div class="AboutMe_field-value"><a class="AboutMe_email" href="tel:010-4582-5037">010-3721-0225</a></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/envelope-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">이메일</div>
-                        <div class="AboutMe_field-value"><a class="AboutMe_email" href="mailto:oscarrr0225@gmail.com">oscarrr0225@gmail.com</a></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="AboutMe_basic-info-wrapper">
-                    <div class="AboutMe_basic-info">
-                      <div class="AboutMe_icon-img-wrapper"><img class="AboutMe_icon-img" src="/images/about-me/pencil-fill.svg" alt=""></div>
-                      <div class="AboutMe_field">
-                        <div class="AboutMe_field-label">학력</div>
-                        <div class="AboutMe_field-value">한국외국어대학교<br>(독일어과)</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="AboutMe_contact-description">* 외주 개발 또는 과외/레슨 문의는&nbsp;<br class="AboutMe_newline">위 연락처/이메일로 부탁드립니다.</div>
-              </div>
-            </article>
-            <article class="Skills_Skills" id="skills">
-              <div class="Skills_content">
-                <div class="SectionTitle_SectionTitle">
-                  <div class="SectionTitle_text" style="color:#000000;border-bottom-color:#000000">SKILLS</div>
-                  <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link" src="/images/black-link.png" alt=""></div>
-                </div>
-                <div class="Skills_tech-stacks-container">
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Frontend</div><img class="Skills_img" src="/images/skills/frontend.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Backend</div><img class="Skills_img" src="/images/skills/backend.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Mobile App</div><img class="Skills_img" src="/images/skills/mobile-app.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Deployment</div><img class="Skills_img" src="/images/skills/deployment.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Version Control</div><img class="Skills_img" src="/images/skills/version-control.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Communication</div><img class="Skills_img" src="/images/skills/communication.png" alt="">
-                  </div>
-                  <div class="Skills_tech-stacks">
-                    <div class="Skills_title">Certificate</div><img class="Skills_img" src="/images/skills/certificate.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </article>
-            <article class="Archiving_Archiving" id="archiving">
-              <div class="Archiving_content">
-                <div class="SectionTitle_SectionTitle">
-                  <div class="SectionTitle_text" style="color:#ffffff;border-bottom-color:#6c757d">ARCHIVING</div>
-                  <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link" src="/images/white-link.png" alt=""></div>
-                </div>
-                <div class="Archiving_container"><a class="Archiving_git-hub" href="https://github.com/pakkyun0225/-vamos">
-                  <div class="Archiving_img-wrapper"><img class="Archiving_img" src="/images/archiving/git-hub.png" alt=""></div>
-                  <div class="Archiving_url">github.com/pakkyun0225/-vamos</div>
-                  <div class="Archiving_description">
-                    <p><b>소스 코드 저장소</b>입니다.</p>
-                    <ul>
-                      <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
-                      <li>혼자서 코딩 연습을 위해 끄적이던 소스 코드</li>
-                      <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
-                    </ul>
-                  </div>
-                </a><a class="Archiving_tistory" href="https://pakkyun.tistory.com">
-                    <div class="Archiving_img-wrapper"><img class="Archiving_img" src="/images/archiving/tistory.png" alt=""></div>
-                    <div class="Archiving_url">pakkyun.tistory.com</div>
-                    <div class="Archiving_description">
-                      <p><b>공부 및 지식 공유 목적의 블로그</b>입니다.</p>
-                      <ul>
-                        <li>공부한 것을 진정한 나의 것으로 만들기 위한 기록</li>
-                        <li>웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
-                        <li>학부 시절 배운 전공 수업들의 내용 복습 겸 정리</li>
-                        <li>지식 공유를 통한 선한 영향력 행사</li>
-                      </ul>
-                    </div>
-                  </a></div>
-              </div>
-            </article>
-            <article class="Projects_Projects" id="projects">
-              <div class="Projects_content">
-                <div class="SectionTitle_SectionTitle">
-                  <div class="SectionTitle_text" style="color:#ffffff;border-bottom-color:#cccccc">PROJECTS</div>
-                  <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link" src="/images/white-link.png" alt=""></div>
-                </div>
-                <div class="Projects_projects">
-                  <div class="Projects_project">
-                    <div class="Projects_title">무슨 노래 부르지?</div>
-                    <div class="Projects_period">2022.10&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/8.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/5.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/6.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/7.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/what-to-sing/8.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/8</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>노래방을 즐기는 사람의 입장에서 자주 부르는 노래를 간편하게 관리할 수 있도록 도와주는 웹사이트</b>입니다. 제 취미가 아이디어의 원천이었고, 저와 취미가 같은 사람들에게 도움이 되었으면 하는 마음으로 개발했습니다.<p></p><span class="Projects_red__r_DWh">Firebase</span> 서비스를 처음 사용해봤다는 것만으로도 의미가 있었지만, 그 과정에서<!-- --> <span class="Projects_red__r_DWh">OAuth 2.0</span>의 개념을 한 번 더 깊게 다지고<!-- --> <span class="Projects_red__r_DWh">NoSQL</span>을 실제로 사용해볼 수 있었다는 점에서 더욱 의미가 있었습니다.<p></p>최근에 인기가 많은 <span class="Projects_red__r_DWh">Tailwind CSS</span>를 처음으로 사용해보며 이것의 차별적인 유용성을 느낄 수 있었고, 동시에<!-- --> <span class="Projects_red__r_DWh">PostCSS</span>가 무엇인지 배우는 계기도 되었습니다.<p></p>이론으로만 알고 있던 <span class="Projects_red__r_DWh">PWA</span>를 실제로 구현해봄으로써 앞으로 웹 생태계가 뻗어나갈 무한한 가능성과 확장성을 몸소 체감할 수 있었습니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">자주 부르는 노래의 가수명 및 제목 기록하기, 간편한 분류를 위해 각 노래에 태깅하기, 노래의 가수명 및 제목으로 검색해 보기, 가수 또는 태그에 따라 분류해 보기</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos/what-to-sing">github.com/hjcdg1/what-to-sing</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">URL</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://what-to-sing.ga">what-to-sing.ga</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">Next.js, Recoil, TypeScript, Sass, PostCSS, Tailwind CSS</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Backend</div>
-                          <div class="Projects_value">Firebase Authentication</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Database</div>
-                          <div class="Projects_value">Firebase Realtime Database</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">Vercel, Firebase (Authentication, Realtime Database)</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">똑똑하게 N빵하기</div>
-                    <div class="Projects_period">2022.02&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/8.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/1.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/2.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/3.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/4.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/5.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/6.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/7.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/dutch-pay-calculator/8.png" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/8</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>복잡한 상황에서의 N빵 계산을 도와 누가 누구에게 얼마를 보내야 하는지 계산해 주는 모바일 앱</b>입니다. 동아리 활동을 하던 당시 여러 모임에서 N빵 계산 시 어려움을 겪은 몇몇 상황에서 아이디어를 얻어 개발하였습니다.<p></p>이미 Android Native로 개발을 완료한 프로젝트였지만,<!-- --> <span class="Projects_red__r_DWh">React Native</span>의 학습을 위해 이를 다시 React Native로 개발하였습니다. 이전 프로젝트와 달리 이번에는 전반적인 로직과 UI &amp; UX를 개선하고 <span class="Projects_red__r_DWh">실제로 스토어에 출시</span>까지 했다는 점에서 의미가 있습니다. 이제는 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">참석자의 이름∙부담 금액∙비중 입력, 최소한으로 이체하는 방법 계산</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos/">github.com/pakkyun0225/-vamos/</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">URL</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://play.google.com/store/apps">play.google.com/store/apps/</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Mobile App</div>
-                          <div class="Projects_value">React Native, Recoil, TypeScript</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">Google Play Store</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">친구가 보는 나의 성격은?</div>
-                    <div class="Projects_period">2021.05 - 2021.06&nbsp;<span class="Projects_new-line-chunk">(2人 팀 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/7.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/1.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/2.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/3.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/4.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/5.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/6.png" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/personality-test-by-friends/7.png" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/7</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>내가 생각하는 나의 성격과 친구가 생각하는 나의 성격을 비교함으로써 겉으로 보이는 나의 모습이 어떠한지 파악해볼 수 있는 웹사이트</b>입니다. 실제로 지인과 성격 검사를 서로 해주면서 얻은 아이디어를 바탕으로 직접 개발하였습니다.<p></p><span class="Projects_red__r_DWh">백 엔드 개발자와 협업하는 과정</span>에 관해 많이 배울 수 있었습니다. 필요한 명세를 문서로 작성하여 소통하였고, 필요한 지식도 함께 공유하며 학습할 수 있었습니다.<p></p>UI &amp; UX를 깊게 고민하며 <span class="Projects_red__r_DWh">스스로 디자인</span>하였고, 그 과정에서 canvas API 등을 활용하여<!-- --> <span class="Projects_red__r_DWh">복잡한 애니메이션</span>들을 구현했습니다.<p></p>복수 페이지의 Next.js 웹사이트를 만들면서<!-- --> <span class="Projects_red__r_DWh">라우팅, CSR, SSR, SSG</span>에 대한 개념을 더욱 확실하게 숙지할 수 있었습니다.<p></p><span class="Projects_red__r_DWh">GA</span>를 설치하여 트래픽을 파악하고 사용자의 행동을 이벤트 단위로 분석하는 방법을 알게 되었습니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">내가 생각하는 나의 성격 검사하기, 친구에게 나의 성격 평가 부탁하기, 나의 성격에 대한 나와 친구의 검사 결과 비교하기</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">URL</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://naver.com">naver.com</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">Next.js, TypeScript, Sass</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Backend</div>
-                          <div class="Projects_value">Django REST Framework</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Database</div>
-                          <div class="Projects_value">PostgreSQL</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">Vercel, AWS (EC2, RDS, Route 53)</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">Onepick 웹사이트</div>
-                    <div class="Projects_period">2021.03&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/8.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/5.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/6.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/7.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/onepick/8.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/8</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>친형이 근무하는 PT 센터의 홈페이지로 사용하는 웹사이트</b>입니다. Onepick은 해당 센터의 이름입니다. 제 분야로 가족에게 도움이 되고 싶은 마음에 진행한 프로젝트입니다.<p></p><span class="Projects_red__r_DWh">Next.js</span>에 조금 더 익숙해진 계기가 되었을 뿐 아니라, 고객의 확보가 중요한 웹사이트인 만큼 사용자의 유입과 경험을 위해<!-- --> <span class="Projects_red__r_DWh">검색엔진최적화(SEO)</span>와<!-- --> <span class="Projects_red__r_DWh">UI &amp; UX 구상</span>에 많은 공을 들인 프로젝트입니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">PT 가격, 문의 방법, 오시는 길(Kakao Map), 트레이너, 내부 시설, 블로그</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">URL</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://naver.com">naver.com</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">Next.js, TypeScript, Sass</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">Vercel</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">포트폴리오 웹사이트</div>
-                    <div class="Projects_period">2021.01&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/portfolio/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/portfolio/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/portfolio/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/portfolio/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/portfolio/4.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/4</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>포트폴리오 용도로 제작한 웹사이트</b>입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.<p></p>이미 순수 React로 개발을 완료한 프로젝트였지만,<!-- --> <span class="Projects_red__r_DWh">Next.js</span>의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, <span class="Projects_red__r_DWh">Vercel</span>을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">간단한 자기소개, 인적 사항, 기술 스택, GitHub 및 티스토리 링크, 프로젝트 경험, 업무 경력</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">URL</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://pakk-portfolio.com">pakk-portfolio.com</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">Next.js, TypeScript, Sass</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">Vercel</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">햇봉 위키 (React, Django)</div>
-                    <div class="Projects_period">2020.08 - 2020.11&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/10.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/5.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/6.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/7.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/8.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/9.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/10.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/10</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>서울대학교 중앙 동아리 햇빛봉사단에 관한 유익한 정보들을 문서화하여 제공해주는 웹 서비스</b>입니다. 해당 동아리 활동을 하던 당시 동아리의 규모에 비해 제대로 된 대표 웹사이트가 없었다는 점이 아쉬워 구상했었던 아이디어를 바탕으로 개발하였습니다.<p></p>이미 Django 풀 스택으로 개발을 완료한 프로젝트였지만,<!-- --> <span class="Projects_red__r_DWh">React</span>의 학습을 위해 이를 React와 Django를 이용하여 다시 개발하였습니다. 그 과정에서<!-- --> <span class="Projects_red__r_DWh">Django REST Framework</span>도 학습하여 백 엔드 지식을 더욱 탄탄히 하였고, AWS의 리소스들을 직접 할당, 연결, 설정하면서<!-- --> <span class="Projects_red__r_DWh">배포 경험</span>도 쌓을 수 있었습니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">"햇봉 위키 (Django 풀 스택)"과 동일</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">React, Redux, Redux-Thunk, Redux-Saga, TypeScript, Sass, Bootstrap</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Backend</div>
-                          <div class="Projects_value">Django REST Framework</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Database</div>
-                          <div class="Projects_value">PostgreSQL</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">AWS (EC2, RDS)</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">햇봉 위키 (Django 풀 스택)</div>
-                    <div class="Projects_period">2020.05 - 2020.06&nbsp;<span class="Projects_new-line-chunk">(1人 개인 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/10.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/5.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/6.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/7.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/8.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/9.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/hatbbong-wiki/10.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/10</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>서울대학교 중앙 동아리 햇빛봉사단에 관한 유익한 정보들을 문서화하여 제공해주는 웹 서비스</b>입니다. 해당 동아리 활동을 하던 당시 동아리의 규모에 비해 제대로 된 대표 웹사이트가 없었다는 점이 아쉬워 구상했었던 아이디어를 바탕으로 개발하였습니다.<p></p>프론트 엔드와 백 엔드를 모두 Django로 구현한 원시적인 형태의 웹 어플리케이션입니다.<!-- --> <span class="Projects_red__r_DWh">현재 회사에서 채택하고 있는 환경 및 기술에 대한 완전한 이해</span>를 목적으로 진행한 프로젝트입니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">학교 메일 인증, 문서 조회, 문서 추가/편집 요청 및 토론, 문서 변경 내역 조회 (Git과 유사한 UI), 커뮤니티 (공지 게시판, 자유 게시판), 신고 및 경고 제도</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">Django Template Engine, Vanilla JS, jQuery, Bootstrap</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Backend</div>
-                          <div class="Projects_value">Django</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Database</div>
-                          <div class="Projects_value">PostgreSQL</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">AWS (Elastic Beanstalk), Circle CI</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Projects_project">
-                    <div class="Projects_title">SNU Moyeo (혼자 하면 힘든, 함께 하면 쉬운)</div>
-                    <div class="Projects_period">2019.03 - 2019.06&nbsp;<span class="Projects_new-line-chunk">(학부 3학년 수업 4人 팀 프로젝트)</span></div>
-                    <div class="Projects_info">
-                      <div class="Projects_img-carousel">
-                        <div class="Projects_imgs" style="left: -490px;">
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/5.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/1.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/2.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/3.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/4.jpg" alt=""></div>
-                          <div class="Projects_img-wrapper"><img class="Projects_img" src="/images/projects/snu-moyeo/5.jpg" alt=""></div>
-                        </div>
-                        <nav class="Projects_nav">
-                          <div class="Projects_prev"><img src="/images/arrow-left.svg" alt=""></div>
-                          <div class="Projects_page">1/5</div>
-                          <div class="Projects_next"><img src="/images/arrow-right.svg" alt=""></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions">
-                        <div class="Projects_main-description"><b>서울대학교 학생들이 쉽게 임시적/장기적 모임을 구성하고 이에 참여할 수 있도록 돕는 웹 서비스</b>입니다. 학교 내에서 임시로 혹은 장기적으로 어떠한 목적을 함께 할 누군가를 간편하게 찾을 수 있도록 돕는 것을 목적으로 합니다.<p></p>처음으로 <span class="Projects_red__r_DWh">Git</span>을 이용하여 다른 사람들과 협업을 해보고, <span class="Projects_red__r_DWh">HTML, CSS, JavaScript</span>와 함께<!-- --> <span class="Projects_red__r_DWh">React, Django</span>를 배우면서 웹 개발의 기본 지식을 쌓을 수 있었던 프로젝트입니다. 또한 저에게 처음으로<!-- --> <span class="Projects_red__r_DWh">웹 개발</span>이라는 매력적인 분야를 알려준 계기이기도 합니다.<p></p>
-                          <div class="Projects_show-readme-btn">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">주요 기능</div>
-                          <div class="Projects_value">학교 메일 인증, 모임 생성/참가/탈퇴/모집/마감, 신고 및 벌점 제도</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">GitHub</div>
-                          <div class="Projects_value"><a class="Projects_url" href="https://github.com/pakkyun0225/-vamos">github.com/pakkyun0225/-vamos</a></div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Frontend</div>
-                          <div class="Projects_value">(Atomic) React, Redux, Redux-Saga</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Backend</div>
-                          <div class="Projects_value">Django REST Framework</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Database</div>
-                          <div class="Projects_value">SQLite3</div>
-                        </div>
-                        <div class="Projects_description">
-                          <div class="Projects_label">Deployment</div>
-                          <div class="Projects_value">AWS (EC2)</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <article class="Career_Career" id="career">
-              <div class="Career_content">
-                <div class="SectionTitle_SectionTitle">
-                  <div class="SectionTitle_text" style="color:#000000;border-bottom-color:#000000">CAREER</div>
-                  <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link" src="/images/black-link.png" alt=""></div>
-                </div>
-                <div class="Career_companies">
-                  <div class="Career_company">
-                    <div class="Career_logo-container">
-                      <div class="Career_logo-wrapper"><img class="Career_logo" src="/images/career/opengallery.png" alt=""></div>
-                    </div>
-                    <div class="Career_info">
-                      <div class="Career_title">(주) 오픈갤러리</div>
-                      <div class="Career_period">2019.08 - 현재</div>
-                      <div class="Career_description">그림을 렌탈하려는 고객들과 그림을 그리는 작가들을 중개하는<!-- --> <b>그림 렌탈 서비스 플랫폼</b>입니다.<br><br>기본적으로는 <b>Django 기반의 풀 스택 웹 개발을 총괄 담당</b>하고 있으며,<!-- --> <b>신규 기술 스택(Next.js 등)</b>과 관련한 개발 및 교육까지 전담하고 있습니다. 또한, 주로 복잡하고 어려운 작업에 관한 <b>기술 검토를 통해 기획을 보조</b>하며, 동료 개발자의 작업에 대한 <b>코드 리뷰</b>나 신입 개발자의 <b>사수 역할</b>과 같은 기타 업무까지 함께 담당하고 있습니다.</div>
-                        <ul class="Career_worksP">
-                          <h4 class="Career_works-title">▎ 백 오피스의 전반적인 관리 및 각종 기능 개발/기획</h4>
-                          <h5 class="Career_works-period">2019년 하반기 ~ 현재</h5>
-                          <li>고객 유입 흐름 파악을 위한 업무 프로세스 관련 데이터 대규모 연동 (Funnel)</li>
-                          <li>그림 픽업/설치/철수/반납 일정의 관리를 위한 캘린더 페이지 기획 및 개발</li>
-                          <li>외주 일정의 관리를 위한 외주 일정 관리 페이지 기획 및 개발</li>
-                          <li>일정 방문 정보의 작성과 관리를 위한 페이지 기획 및 개발</li>
-                          <li>초기 아트테크 시스템 개발 및 관련 추가 기획/개발 담당</li>
-                          <li>작가 송금 관리 시스템 개발</li>
-                          <li>발생주의 기반의 매출 분석 페이지 개발</li>
-                          <li>수익률 분석을 위한 작품 분석 페이지 개발</li>
-                          <li>고객의 유입률 등을 보여주는 통계 페이지 개발</li>
-                          <li>고객 통계를 위한 UTM 파라미터 추적 기능 개발</li>
-                          <li>전시 데이터 등록 및 관리 시스템 리뉴얼</li>
-                          <li>Jira API 기반의 업무 관리 페이지 기획 및 개발</li>
-                          <li>알림톡 및 문자메시지 발송 API 업체 이관 및 관련 개발</li>
-                          <li>Iamport 모듈을 이용한 결제 기능 리팩토링</li>
-                          <li>이미지 AWS S3 업로드 방식의 통일 및 최적화</li>
-                          <li>오랫동안 유지보수되지 않은 페이지 및 기능 정리</li>
-                          <li>자주 쓰이는 코드의 리팩토링 (EX. 페이지네이션)</li>
-                          <li>Python, Django, Node.js 버전 업그레이드</li>
-                          <h4 class="Career_works-title">▎ 개발 업무 외 기타 업무 담당</h4>
-                          <h5 class="Career_works-period">2020년 중반기 ~ 현재</h5>
-                          <li>기획자/개발자 채용 담당 (서류/면접 평가)</li>
-                          <li>신입 개발자 사수 담당 (업무 교육/할당)</li>
-                          <li>동료 개발자 코드 리뷰 (피드백/교육)</li>
-                          <li>개발 관련 유용한 지식 발표 및 공유</li>
-                          <li>IT팀 업무 관련 문서 총정리</li>
-                          <li>개발자 인수인계 및 온보딩 문서 작성</li>
-                          <h4 class="Career_works-title">▎ 대규모 서버 정리 작업 리드</h4>
-                          <h5 class="Career_works-period">2020년 중반기 ~ 2021년 중반기</h5>
-                          <li>대규모 서버 정리 작업 총괄 및 코드 리뷰</li>
-                          <li>데이터베이스 마이그레이션 파일 정리</li>
-                          <li>알림톡 및 네이버웍스 알림 관련 기능 정리 및 개선</li>
-                          <li>로그인 및 회원가입 등의 인증 시스템 정리 및 개선</li>
-                          <li>관리자 권한 관련 기능 정리 및 개선</li>
-                          <li>불필요한 파일/코드 정리 및 코드 작성 방식 통일성 확보</li>
-                          <h4 class="Career_works-title">▎ 서버 배포 라인 변경</h4>
-                          <h5 class="Career_works-period">2021년 하반기</h5>
-                          <li>기존 배포 라인 : AWS Elastic Beanstalk</li>
-                          <li>신규 배포 라인 : AWS ECS (Docker 기반)</li>
-                          <li>OS 독립적인 간편한 개발 환경 구축이 가능해짐</li>
-                          <li>특정 기술의 독립적인 버전 업그레이드가 용이해짐</li>
-                          <li>Next.js의 점진적 도입을 위한 기반 마련</li>
-                          <h4 class="Career_works-title">▎ 작가 개인용 웹사이트 전체 리뉴얼 (Next.js)</h4>
-                          <h5 class="Career_works-period">2022년 상반기</h5>
-                          <li>Django 기반의 웹사이트를 Next.js 기반으로 재개발</li>
-                          <li>React 기반의 Next.js 개발 환경 최초 구축</li>
-                          <li>Next.js, Recoil, Sass, DRF 등 활용</li>
-                          <li>신규 기술 스택 및 개발 환경 관련 내부 교육 진행</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </article>
-            <div class="PageUpButton_PageUpButton "><img class="PageUpButton_img_" src="/images/page-up.svg" alt=""></div>
-            <footer class="Footer_Footer">
-              <div class="Footer_icons">
-                <div class="Footer_icon-wrapper Footer_bg-white" title="GitHub"><img class="Footer_icon" src="/images/footer/git-hub.png" alt=""></div>
-                <div class="Footer_icon-wrapper" title="Tistory"><img class="Footer_icon" src="/images/footer/tistory.png" alt=""></div>
-                <div class="Footer_icon-wrapper" title="Instagram"><img class="Footer_icon" src="/images/footer/instagram.png" alt=""></div>
-                <div class="Footer_icon-wrapper Footer_bg-white" title="Facebook"><img class="Footer_icon" src="/images/footer/facebook.png" alt=""></div>
-              </div>
-              <div class="Footer_copyright">© 2021. Choi Deok Gyeong. All rights not reserved.</div>
-            </footer>
           </div>
-        </div>
-        <script id="__NEXT_DATA__" type="application/json">
-          {
-            "props": {
-            "pageProps": {
-            "readmeContents": ["\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-snu-moyeo-혼자-하면-힘든-함께-하면-쉬운\" class=\"anchor\" aria-hidden=\"true\" href=\"#snu-moyeo-혼자-하면-힘든-함께-하면-쉬운\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003eSNU Moyeo (혼자 하면 힘든, 함께 하면 쉬운)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e서울대학교 학생들이 쉽게 임시적/장기적 모임을 구성하고 이에 참여할 수 있도록 돕는 웹 서비스\u003c/strong\u003e입니다. 학교 내에서 임시로 혹은 장기적으로 어떠한 목적을 함께 할 누군가를 간편하게 찾을 수 있도록 돕는 것을 목적으로 합니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e처음으로 Git을 이용하여 다른 사람들과 협업을 해보고, HTML, CSS, JavaScript와 함께 React, Django를 배우면서 웹 개발의 기본 지식을 쌓을 수 있었던 프로젝트입니다. 또한 저에게 처음으로 웹 개발이라는 매력적인 분야를 알려준 계기이기도 합니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 학교 메일 인증\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 모임 생성/참가/탈퇴/모집/마감\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 신고 및 벌점 제도\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e2019년 1학기 재학 당시 '
-          소프트웨어 개발의 원리와 실습 '이라는 과목에서 진행한 4인 팀 프로젝트입니다. 어떠한 주제로 프로젝트를 진행할지 고민하던 중, 학교 내에서 잠시 배달 음식을 같이 시켜 먹을 사람을 찾거나 주기적으로 만나서 운동이나 공부를 같이 할 수 있는 사람을 간편하게 찾을 수 있다면 좋겠다는 생각을 바탕으로 이 주제를 선정하게 되었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e사실상 처음으로 Git을 사용하여 다른 사람들과의 협업을 경험한 프로젝트라는 점에서 의미가 깊습니다. Git을 어떻게 사용하는지 배웠을 뿐 아니라, 한 학기 동안 때로는 의견이 첨예하게 갈리기도 하는 다른 사람들과 어떻게 호흡을 맞춰야 하는지에 대해 배울 수 있었던 프로젝트입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한, 이 프로젝트를 진행한 해당 학기는 저 자신이 얼마나 힘든 고비를 잘 버텨냈었는지를 보여주는 지표이기도 합니다. 당시에는 Git을 포함하여 HTML, CSS, JavaScript 등에 대한 기본적인 지식조차 없었지만, 수업에서 특별히 가르쳐주는 것도 없었기에, 이것들을 익히면서 동시에 React, Django 등의 프레임워크까지 한 학기에 학습하는 것은 너무나도 버거운 일이었습니다. 하지만 결과적으로는 모든 걸 버텨내고 뿌듯한 결실과 함께 좋은 성적까지 얻을 수 있었다는 점에서, 자신을 한 단계 성장시킨 프로젝트이기도 합니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e마지막으로, 지금까지도 걷고 있는 웹 개발자의 길을 처음으로 열어준 프로젝트입니다. 그렇게 다양한 지식을 짧은 기간 내에 빠르게 학습해야 하는 부담을 가진 와중에도 웹 개발의 매력을 충분히 느꼈던 것 같습니다. 시작의 계기는 수업이었지만, 결과적으로는 제 적성에 맞는 분야를 찾았기에 굉장히 감사한 프로젝트입니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : (Atomic) React, Redux, Redux-Saga\u003c/li\u003e\n\u003cli\u003eBackend : Django REST Framework\u003c/li\u003e\n\u003cli\u003eDatabase : SQLite3\u003c/li\u003e\n\u003cli\u003eDeployment : AWS (EC2)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--members\" class=\"anchor\" aria-hidden=\"true\" href=\"#-members\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"family\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f46a.png\"\u003e👪\u003c/g-emoji\u003e Members\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003e박현준 (Frontend, Backend) : 본인\u003c/li\u003e\n\u003cli\u003e김동욱 (Frontend) : \u003ca href=\"https://github.com/kdw8573\"\u003ehttps://github.com/kdw8573\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e정재훈 (Frontend) : \u003ca href=\"https://github.com/PrE-Ren\"\u003ehttps://github.com/PrE-Ren\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e이종민 (Backend) : \u003ca href=\"https://github.com/ComputerMath\"\u003ehttps://github.com/ComputerMath\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-1-git-clone\" class=\"anchor\" aria-hidden=\"true\" href=\"#1-git-clone\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e1. Git Clone\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"mkdir project\ngit clone https://github.com/pakkyun0225/-vamos/swpp-cjlk.git .\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003emkdir project\ngit clone https://github.com/pakkyun0225/-vamos/swpp-cjlk.git .\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-2-backend-windows\" class=\"anchor\" aria-hidden=\"true\" href=\"#2-backend-windows\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e2. Backend (Windows)\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"cd back\npython -m venv env\nenv\\Script\\activate\n\npython -m pip install --upgrade pip\npip install -r requirements.txt\n\npython manage.py makemigrations snu_moyeo\npython manage.py migrate\n\npython manage.py runserver\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003ecd back\npython -m venv env\nenv\\Script\\activate\n\npython -m pip install --upgrade pip\npip install -r requirements.txt\n\npython manage.py makemigrations snu_moyeo\npython manage.py migrate\n\npython manage.py runserver\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-3-frontend-windows\" class=\"anchor\" aria-hidden=\"true\" href=\"#3-frontend-windows\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e3. Frontend (Windows)\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"cd front\nnpm install (Automatic 선택, Yes 선택, semantic/ 선택)\n\nnpm start\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003ecd front\nnpm install (Automatic 선택, Yes 선택, semantic/ 선택)\n\nnpm start\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e","\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-햇봉-위키-django-풀-스택\" class=\"anchor\" aria-hidden=\"true\" href=\"#햇봉-위키-django-풀-스택\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e햇봉 위키 (Django 풀 스택)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e서울대학교 중앙 동아리 햇빛봉사단에 관한 유익한 정보들을 문서화하여 제공해주는 웹 서비스\u003c/strong\u003e입니다. 해당 동아리 활동을 하던 당시 동아리의 규모에 비해 제대로 된 대표 웹사이트가 없었다는 점이 아쉬워 구상했었던 아이디어를 바탕으로 개발하였습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e프론트 엔드와 백 엔드를 모두 Django로 구현한 원시적인 형태의 웹 어플리케이션입니다. 현재 회사에서 채택하고 있는 환경 및 기술에 대한 완전한 이해를 목적으로 진행한 프로젝트입니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 학교 메일 인증\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 조회\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 추가/편집 요청 및 토론\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 변경 내역 조회 (Git과 유사한 UI)\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 커뮤니티 (공지 게시판, 자유 게시판)\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 신고 및 경고 제도\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e새로운 지식을 학습하는 것도 중요하지만, 현재 자신이 사용하고 있는 기술을 정확히 알고 넘어가는 것도 그만큼 중요하다고 생각합니다. 막연하게 당장 필요한 개발만 진행하다 보면 해당 개발 환경, 기술 스택, 배포 방식 등에 대한 이해를 제대로 짚고 넘어가지 못하는 경우가 많고, 그러면 제가 진정으로 꿈꾸는 풀 스택 개발자의 역량을 갖추기 어렵다고 생각하기 때문입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e그런 의미에서 현재 회사에서 개발 및 배포에 사용하고 있는 기술들에 대한 이해를 다시 한번 정리하고 이를 완전히 제 것으로 만들고자, 처음부터 현재 회사의 환경과 완전히 동일하게 세팅하고 개발 작업을 진행한 후에 배포까지 동일한 방식으로 진행해보기로 하였습니다. 즉, 이 프로젝트는 새로운 걸 학습하고 적용해보는 것이 목적이 아닌, 이미 알고 있는 것을 정말 제대로 알고 있는 것으로 바꾸기 위한 일련의 숙달 과정입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e그리고 이번 프로젝트에서 '
-          햇봉 위키 ' 서비스를 개발하게 된 이유는 학부 시절 해당 동아리 활동을 하는 내내 개발해보고 싶은 욕심을 마음 한편에 품어왔던 서비스이기 때문입니다. 동아리 소속 인원이 300명이 넘어가는 교내 최대 규모 동아리임에도 불구하고 동아리를 대표하는 웹사이트가 네이버 카페 하나밖에 없던 것이 아쉬웠고, 창립된 지도 시간이 꽤 흐른 만큼 역사 속에서 많은 이벤트가 발생했을 텐데 이에 대한 아카이빙도 제대로 이뤄지지 않기에 직접 웹사이트를 제작해보고 싶었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e회사에서는 어느 정도의 패턴을 갖고 익숙한 개발 작업을 하는 경우가 많기 때문에, 이 프로젝트를 진행하지 않았다면 회사 프로젝트에서 사용하는 기술 스택과 이미 세팅된 여러 가지 환경에 대한 심도 있는 이해가 이뤄지기 어려웠을 것입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이 프로젝트를 통해 AWS Elastic Beanstalk를 이용하여 어떻게 ELB, EC2, RDS 등의 리소스를 한 번에 세팅하고 Django 웹 어플리케이션과 PostgreSQL 서버를 배포할 수 있는지 구체적으로 알게 되었습니다. 또한 Circle CI를 직접 원격 저장소에 연결함으로써 매번 자연스럽게 동작하던 CI/CD 프로세스가 어떠한 원리로 설정되고 실행되고 있었던 건지에 대해서도 알게 되었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e마지막으로, Docker를 사용하지 않았기 때문에 개발 환경 설정 시에도 필요한 모든 설정을 일일이 진행하면서 각각의 설정이 왜 필요한지에 대해 심도 있는 탐구가 이뤄질 수 있었습니다. 그리고 한편으로는 이러한 불편한 과정을 느껴봄으로써 왜 Docker 등의 기술을 이용한 개발 환경 구축이 중요한지 깨닫는 계기도 되었습니다(이는 실제로 나중에 회사에서 개발/배포 환경을 Docker 기반으로 바꾸게 되는 계기를 마련함).\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : Django Template Engine, Vanilla JS, jQuery, Bootstrap\u003c/li\u003e\n\u003cli\u003eBackend : Django\u003c/li\u003e\n\u003cli\u003eDatabase : PostgreSQL\u003c/li\u003e\n\u003cli\u003eDeployment : AWS (Elastic Beanstalk), Circle CI\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-1-의존성-패키지-설치\" class=\"anchor\" aria-hidden=\"true\" href=\"#1-의존성-패키지-설치\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e1. 의존성 패키지 설치\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"sudo yum install epel-release\nsudo yum update\nsudo yum groupinstall \u0026quot;Development Tools\u0026quot;\nsudo yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003esudo yum install epel-release\nsudo yum update\nsudo yum groupinstall \"Development Tools\"\nsudo yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-2-pyenv-패키지-설치\" class=\"anchor\" aria-hidden=\"true\" href=\"#2-pyenv-패키지-설치\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e2. pyenv 패키지 설치\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"git clone https://github.com/pyenv/pyenv.git ~/.pyenv\n\necho '
-          export PYENV_ROOT = \u0026quot;
-          $HOME / .pyenv\u0026quot;
-          ' \u0026gt;\u0026gt; ~/.bash_profile\necho '
-          export PATH = \u0026quot;
-          $PYENV_ROOT / bin: $PATH\u0026quot;
-          ' \u0026gt;\u0026gt; ~/.bash_profile\necho -e '
-          if command - v pyenv 1 \u0026gt;
-          /dev/null
-          2 \u0026gt;
-          \u0026amp;
-          1;
-          then\\ n eval \u0026quot;
-          $(pyenv init - ) \u0026quot;\\
-          nfi ' \u0026gt;\u0026gt; ~/.bash_profile\nsource ~/.bash_profile\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003egit clone https://github.com/pyenv/pyenv.git ~/.pyenv\n\necho '
-          export PYENV_ROOT = \"$HOME/.pyenv\"' \u0026gt;\u0026gt; ~/.bash_profile\necho 'export PATH=\"$PYENV_ROOT/bin:$PATH\"' \u0026gt;\u0026gt; ~/.bash_profile\necho -e 'if command -v pyenv 1\u0026gt;/dev/null 2\u0026gt;\u0026amp;1; then\\n eval \"$(pyenv init -)\"\\nfi' \u0026gt;\u0026gt; ~/.bash_profile\nsource ~/.bash_profile\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-3-pyenv-virtualenv-패키지-설치\" class=\"anchor\" aria-hidden=\"true\" href=\"#3-pyenv-virtualenv-패키지-설치\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e3. pyenv-virtualenv 패키지 설치\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv\n\necho 'eval \u0026quot;$(pyenv virtualenv-init -)\u0026quot;' \u0026gt;\u0026gt; ~/.bash_profile\nsource ~/.bash_profile\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003egit clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv\n\necho 'eval \"$(pyenv virtualenv-init -)\"' \u0026gt;\u0026gt; ~/.bash_profile\nsource ~/.bash_profile\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-4-가상-환경-설정\" class=\"anchor\" aria-hidden=\"true\" href=\"#4-가상-환경-설정\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e4. 가상 환경 설정\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"pyenv install 3.6.7\npyenv virtualenv 3.6.7 hatbbong-wiki-env\n\ngit clone https://github.com/pakkyun0225/-vamos/hatbbong-wiki.git\n\ncd hatbbong-wiki\npyenv local hatbbong-wiki-env\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003epyenv install 3.6.7\npyenv virtualenv 3.6.7 hatbbong-wiki-env\n\ngit clone https://github.com/pakkyun0225/-vamos/hatbbong-wiki.git\n\ncd hatbbong-wiki\npyenv local hatbbong-wiki-env\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-5-데이터베이스-설치-및-설정\" class=\"anchor\" aria-hidden=\"true\" href=\"#5-데이터베이스-설치-및-설정\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e5. 데이터베이스 설치 및 설정\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"sudo yum install  https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm\nsudo yum install postgresql96 postgresql96-server postgresql96-devel\n\nsudo ln -s /usr/pgsql-9.6/bin/pg_config /usr/bin/pg_config\nsudo /usr/pgsql-9.6/bin/postgresql96-setup initdb\n\n# PostgresSQL 설정 파일 내용 수정 (\u0026quot;trust\u0026quot; 부분)\nsudo su - postgres\n    vi ~/9.6/data/pg_hba.conf\n        # \u0026quot;local\u0026quot; is for Unix domain socket connections only\n        local   all       all                           trust\n        # IPv4 local connections:\n        host    all       all       127.0.0.1/32        trust\n        # IPv6 local connections:\n        host    all       all       ::1/128             trust\n    exit\n\nsudo passwd postgres\nsudo systemctl enable postgresql-9.6\nsudo systemctl start postgresql-9.6\n\npsql -U postgres\n   create database hatbbong_wiki; \n   \\q\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003esudo yum install  https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm\nsudo yum install postgresql96 postgresql96-server postgresql96-devel\n\nsudo ln -s /usr/pgsql-9.6/bin/pg_config /usr/bin/pg_config\nsudo /usr/pgsql-9.6/bin/postgresql96-setup initdb\n\n# PostgresSQL 설정 파일 내용 수정 (\"trust\" 부분)\nsudo su - postgres\n    vi ~/9.6/data/pg_hba.conf\n        # \"local\" is for Unix domain socket connections only\n        local   all       all                           trust\n        # IPv4 local connections:\n        host    all       all       127.0.0.1/32        trust\n        # IPv6 local connections:\n        host    all       all       ::1/128             trust\n    exit\n\nsudo passwd postgres\nsudo systemctl enable postgresql-9.6\nsudo systemctl start postgresql-9.6\n\npsql -U postgres\n   create database hatbbong_wiki; \n   \\q\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-6-장고-및-관련-파이썬-패키지-설치\" class=\"anchor\" aria-hidden=\"true\" href=\"#6-장고-및-관련-파이썬-패키지-설치\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e6. 장고 및 관련 파이썬 패키지 설치\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"pip install --upgrade pip\npip install -r requirements.txt\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003epip install --upgrade pip\npip install -r requirements.txt\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-7-서버-실행\" class=\"anchor\" aria-hidden=\"true\" href=\"#7-서버-실행\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e7. 서버 실행\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"python manage.py migrate\npython manage.py createsuperuser  # 슈퍼 유저 생성\npython manage.py runserver\n# 가상 머신 CentOS7이라면, 가상 머신의 8000번 포트를 호스트의 8000번 포트에 연결해줘야 함.\n# 참고 : https://pakkyun.tistory.com/56?category=749284\n# 그리고 \u0026quot;python manage.py runserver 0.0.0.0:8000\u0026quot;으로 서버를 실행해야 함.\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003epython manage.py migrate\npython manage.py createsuperuser  # 슈퍼 유저 생성\npython manage.py runserver\n# 가상 머신 CentOS7이라면, 가상 머신의 8000번 포트를 호스트의 8000번 포트에 연결해줘야 함.\n# 참고 : https://pakkyun.tistory.com/56?category=749284\n# 그리고 \"python manage.py runserver 0.0.0.0:8000\"으로 서버를 실행해야 함.\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-햇봉-위키-react-django\" class=\"anchor\" aria-hidden=\"true\" href=\"#햇봉-위키-react-django\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e햇봉 위키 (React, Django)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e서울대학교 중앙 동아리 햇빛봉사단에 관한 유익한 정보들을 문서화하여 제공해주는 웹 서비스\u003c/strong\u003e입니다. 해당 동아리 활동을 하던 당시 동아리의 규모에 비해 제대로 된 대표 웹사이트가 없었다는 점이 아쉬워 구상했었던 아이디어를 바탕으로 개발하였습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이미 Django 풀 스택으로 개발을 완료한 프로젝트였지만, React의 학습을 위해 이를 React와 Django를 이용하여 다시 개발하였습니다. 그 과정에서 Django REST Framework도 학습하여 백 엔드 지식을 더욱 탄탄히 하였고, AWS의 리소스들을 직접 할당, 연결, 설정하면서 배포 경험도 쌓을 수 있었습니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 학교 메일 인증\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 조회\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 추가/편집 요청 및 토론\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문서 변경 내역 조회 (Git과 유사한 UI)\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 커뮤니티 (공지 게시판, 자유 게시판)\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 신고 및 경고 제도\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e회사에서는 Django 풀 스택 개발 업무를 맡고 있었지만, 최근에는 대부분 프론트 엔드와 백 엔드가 분리된 형태로 서비스가 구축된다는 걸 알고 있었습니다. 회사에서도 이를 인지하여 조만간 React로 서비스를 리뉴얼하자는 말이 나오고 있었습니다. 그래서 저의 커리어와 언제 진행하게 될지 모르는 회사의 리뉴얼 프로젝트를 위해서 관련 기술을 학습해둬야겠다고 생각하였습니다. 개인적으로는 프론트 엔드 개발자에 조금 더 관심이 있었기에, 가장 트렌디하게 떠오르는 React를 선택하여 학습하기로 하였습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e그렇게 React의 학습을 시작하게 되었고, 어느 정도의 지식이 쌓인 후 프로젝트를 진행해야겠다고 생각했습니다. 이때 처음으로 떠오른 것이 앞서 Django 풀 스택으로 개발을 완료한 햇봉 위키 프로젝트였습니다. 새로운 프로젝트 주제를 구상하지 않고 기존의 프로젝트 주제를 가져온 이유는 온전히 새로운 기술 스택의 학습에만 집중하고 싶었기 때문입니다. 새로운 주제를 구상하려면 그 과정에서 많은 리소스가 소모되어 새로운 기술 스택의 학습에만 집중하기가 어려울 것입니다. 또한, 주제가 동일하면 새로운 기술 스택이 기존의 기술 스택과 어떠한 차이를 보이는지 대조하며 학습하기에도 매우 좋다고 생각하였습니다. 이것이 햇봉 위키 프로젝트를 다시 한번 리뉴얼하게 된 계기입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e더불어, 햇봉 위키 프로젝트는 명백히 백 엔드가 필요하므로 리뉴얼 과정에서 Django REST Framework에 대한 학습도 함께 이뤄질 수 있다는 점이 긍정적으로 작용하였습니다. 물론 프론트 엔드 개발에만 집중하고 싶다면 Firebase 등의 플랫폼을 이용할 수도 있습니다. 그러나 당장 프론트 엔드 개발자에 조금 더 관심이 있는 건 사실이지만 궁극적으로는 진정한 풀 스택 개발자가 되는 것이 목적이기 때문에, 백 엔드에 관한 학습도 틈틈이 해둬야 한다고 생각했습니다. 이러한 면에서 Django REST Framework를 통해 REST API에 대해 배우는 것은 매우 좋은 경험이라 판단했습니다. 또한 이미 Django를 잘 알고 있어서 학습에도 큰 부담은 없었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e이론으로만 학습하던 React를 처음으로 실전에 적용해보면서 React 개발자에 한 발자국 더 다가갈 수 있었던 프로젝트입니다. 더군다나 햇봉 위키가 기능적으로도 그렇게까지 가벼운 웹사이트는 아니었기 때문에 여러 기능을 구현하는 과정에서 많은 트러블슈팅도 경험해볼 수 있었습니다. 그리고 일단 Django 풀 스택과는 개발 패러다임 자체가 아예 달랐기 때문에 이러한 패러다임에 익숙해진 것 자체로도 큰 의미가 있다고 생각합니다. 그 과정에서 Django 풀 스택과 비교하면서 왜 최근에는 React 등의 기술이 트렌디한지에 대해서도 비교 학습할 수 있었습니다. 실제로, React 프로젝트를 진행하다가 출근해서 Django 풀 스택으로 개발을 하려고 하면 확실히 불편함을 많이 느끼곤 하였습니다. 개인적으로는 이러한 불편한 감정이 더 나은 기술을 찾게 하는 원동력으로 작용한다고 생각하기에 굉장히 값어치 있는 경험이었던 것 같습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한 Django REST Framework를 학습하는 과정에서 REST API를 비롯한 백 엔드 지식을 더욱 탄탄히 하는 것에도 도움이 되었습니다. 사실 회사에서 하는 Django 풀 스택 개발은 엄밀히 말하면 API 개발과 결이 약간 달랐기 때문에 백 엔드 지식이 충분하다고 말하기 애매했습니다. 그렇기 때문에 이번 프로젝트를 통해 조금 애매했던 백 엔드 지식을 많이 보완할 수 있었고, 실제로 프론트 엔드와 백 엔드가 분리되면 각 위치에서 어떠한 고민을 해야 하는지에 대해서도 생각해볼 수 있었습니다. 다행히 Django를 이미 잘 알고 있어서 Django REST Framework를 학습하는 데도 큰 시간이 들지 않았기에, 매우 효율적으로 많은 것을 배울 수 있었던 경험이었던 것 같습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e마지막으로, 프론트 엔드와 백 엔드가 분리된 구조에서 개발/배포 환경을 어떻게 구축해야 하는지에 대해 충분히 고민하고 문제를 해결해볼 수 있었던 프로젝트이기도 합니다. 회사에서도 이러한 구조가 아니었기 때문에 사실상 모든 것을 혼자 찾아보면서 학습해야 했고, 그 과정에서 AWS의 각 리소스를 할당, 연결, 설정하면서 많은 것을 익힐 수 있었습니다. AWS EC2에 Nginx, React, Django를 구축하는 방법을 알게 되었고, AWS Route 53에서 커스텀 도메인을 구입하고 AWS Certificate Manager에서 SSL/TLS 인증서를 발급 및 이를 로드 밸런서에 연결함으로써 HTTPS 기반의 도메인을 설정하는 방법도 알게 되었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : React, Redux, Redux-Thunk, Redux-Saga, TypeScript, Sass, Bootstrap\u003c/li\u003e\n\u003cli\u003eBackend : Django REST Framework\u003c/li\u003e\n\u003cli\u003eDatabase : PostgreSQL\u003c/li\u003e\n\u003cli\u003eDeployment : AWS (EC2, RDS)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-1-set-database-postgresql\" class=\"anchor\" aria-hidden=\"true\" href=\"#1-set-database-postgresql\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e1. Set Database (PostgreSQL)\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# 1. OS에 맞는 PostgreSQL 설치\n# 2. postgres 계정 비밀번호를 postgres로 설정\n# 3. 포트 번호 5432로 설정\n# 4. 'hatbbong_wiki'라는 이름의 데이터베이스 생성 (pgAdmin4 혹은 psql 이용)\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# 1. OS에 맞는 PostgreSQL 설치\n# 2. postgres 계정 비밀번호를 postgres로 설정\n# 3. 포트 번호 5432로 설정\n# 4. 'hatbbong_wiki'라는 이름의 데이터베이스 생성 (pgAdmin4 혹은 psql 이용)\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-2-set-backend-django\" class=\"anchor\" aria-hidden=\"true\" href=\"#2-set-backend-django\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e2. Set Backend (Django)\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# Set Virtual Environment\ncd back\npython -m venv env\nenv\\Script\\activate\n\n# Install Python Packages\npython -m pip install --upgrade pip\npip install -r requirements.txt\n\n# Migrate Database\npython manage.py migrate\n\n# Run Backend Server\npython manage.py runserver\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# Set Virtual Environment\ncd back\npython -m venv env\nenv\\Script\\activate\n\n# Install Python Packages\npython -m pip install --upgrade pip\npip install -r requirements.txt\n\n# Migrate Database\npython manage.py migrate\n\n# Run Backend Server\npython manage.py runserver\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content-3-set-frontend-react\" class=\"anchor\" aria-hidden=\"true\" href=\"#3-set-frontend-react\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e3. Set Frontend (React)\u003c/h4\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# Install JavaScript Packages\ncd front\nnpm install\n\n# Run Frontend Server\nnpm start\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# Install JavaScript Packages\ncd front\nnpm install\n\n# Run Frontend Server\nnpm start\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-포트폴리오-웹사이트-nextjs\" class=\"anchor\" aria-hidden=\"true\" href=\"#포트폴리오-웹사이트-nextjs\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e포트폴리오 웹사이트 (Next.js)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--deployment-url\" class=\"anchor\" aria-hidden=\"true\" href=\"#-deployment-url\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"link\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f517.png\"\u003e🔗\u003c/g-emoji\u003e Deployment URL\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://pakk-portfolio.com\" rel=\"nofollow\"\u003ehttps://pakk-portfolio.com\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e포트폴리오 용도로 제작한 웹사이트\u003c/strong\u003e입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 간단한 자기소개\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 인적 사항\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 기술 스택\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e GitHub 및 티스토리 링크\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 프로젝트 경험\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 업무 경력\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e순수 React로 개발한 웹사이트는 서버 사이드 렌더링을 지원하기 어렵기 때문에 검색 엔진 최적화(SEO)에서 치명적인 약점을 보입니다. 그래서 클라이언트 사이드 렌더링과 함께 서버 사이드 렌더링도 지원하는 Next.js가 큰 인기를 얻고 있었습니다. 이 프로젝트를 진행하게 된 이유도 Next.js를 학습하기 위함입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eNext.js 학습의 대상으로 기존의 포트폴리오 웹사이트를 그대로 가져온 이유는 간단합니다. 새로운 기술 스택으로 동일한 웹사이트를 다시 개발하면 기존 기술 스택과의 차이점을 명확하게 파악할 수 있을 뿐 아니라, 다른 사람들에게 많이 노출되어야 하는 포트폴리오 웹사이트의 특성상 서버 사이드 렌더링이 필요하기 때문입니다. 기존의 포트폴리오 웹사이트는 순수 React로 개발되어 있기 때문에 검색엔진최적화(SEO)의 측면에서 매우 불리했습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003eNext.js를 이용하여 처음으로 진행한 프로젝트였기 때문에, Next.js에 대한 이해를 넓히는 데 많은 도움이 되었습니다. 실제로 Next.js가 동작하는 방식이 순수 React와는 생각보다 아주 달라서 처음에는 이해하는 데 조금 어려웠지만, 이해하고 나니 Next.js의 위대함을 제대로 실감할 수 있었습니다. 순수 React가 지원하는 클라이언트 사이드 렌더링을 지원하면서 동시에 검색엔진최적화(SEO)를 위한 서버 사이드 렌더링을 지원한다는 사실이 굉장히 충격적이었기 때문입니다. 인기가 많은 데는 이유가 있다고 생각했던 것 같습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한, Next.js로 기술 스택을 바꾸면서 배포 플랫폼도 Netlify에서 Vercel로 바꾸었는데, 이 또한 Next.js에 특화된 간편한 배포 플랫폼임을 느꼈습니다. 사실 Next.js로 개발한 웹사이트는 서버가 필요한 동적인 웹사이트이기 때문에, 처음에는 AWS와 같은 플랫폼을 사용해서 불편하게 배포를 진행해야 하는 줄 알았습니다. 그러나 Vercel이라고 하는 Next.js에 특화된 배포 플랫폼이 존재한다는 것을 알게 되었고, 여기서 Next.js 웹사이트의 배포를 위한 모든 설정을 자동으로 해주는 것에 굉장한 고마움을 느꼈습니다. 역시 웹사이트의 특성에 따라 적절한 배포 플랫폼을 이용하는 것이 중요하다는 것을 다시 한번 깨달을 수 있었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : Next.js, TypeScript, Sass\u003c/li\u003e\n\u003cli\u003eDeployment : Vercel\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp dir=\"auto\"\u003eStart Bootstrap이 제공하는 무료 HTML 템플릿(\u003ca href=\"https://startbootstrap.com/theme/creative\" rel=\"nofollow\"\u003ehttps://startbootstrap.com/theme/creative\u003c/a\u003e\u003cspan\u003e)을\u003c/span\u003e 기반으로 작업했습니다. 다만 HTML, CSS 코드를 가져다 사용하진 않고 디자인만 참고하여 HTML, CSS 코딩은 직접 진행했습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-onepick-웹사이트\" class=\"anchor\" aria-hidden=\"true\" href=\"#onepick-웹사이트\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003eOnepick 웹사이트\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--deployment-url\" class=\"anchor\" aria-hidden=\"true\" href=\"#-deployment-url\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"link\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f517.png\"\u003e🔗\u003c/g-emoji\u003e Deployment URL\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://onepick-pt.com\" rel=\"nofollow\"\u003ehttps://onepick-pt.com\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e친형이 근무하는 PT 센터의 홈페이지로 사용하는 웹사이트\u003c/strong\u003e입니다. Onepick은 해당 센터의 이름입니다. 제 분야로 가족에게 도움이 되고 싶은 마음에 진행한 프로젝트입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eNext.js에 조금 더 익숙해진 계기가 되었을 뿐 아니라, 고객의 확보가 중요한 웹사이트인 만큼 사용자의 유입과 경험을 위해 검색엔진최적화(SEO)와 UI \u0026amp; UX 구상에 많은 공을 들인 프로젝트입니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e PT 가격\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 문의 방법\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 오시는 길 (Kakao Map)\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 트레이너\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 내부 시설\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 블로그\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e저의 친형이 PT(Personal Training) 트레이너로 근무를 하는 센터가 오픈한 지 얼마 되지 않아, 해당 센터의 홈페이지로 사용할 웹사이트를 하나 개발해주면 좋겠다고 생각하였습니다. 제 분야로 가족에게 도움이 되고 싶다는 생각을 한 적이 많았던 데다가, 실제로 한 조직이 사용할 웹사이트를 개발해주면 보람도 있고, 저 자신도 개발 역량을 비롯한 기획 및 디자인 역량을 함께 발전시키기에 좋은 경험이 될 것이라 판단하였기 때문입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한, Next.js에 조금 더 익숙해지고 싶은 마음도 있었습니다. 지난번에 포트폴리오 웹사이트를 개발하면서 처음으로 Next.js를 사용했었는데, 그것만으로는 아직 부족하다고 생각했습니다. 한 번 사용해본 것으로는 제대로 안다고 하기에 부끄러웠기 때문에, 이번에 한 번 더 사용함으로써 Next.js에 더욱 숙련된 개발자가 되고 싶었던 것입니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003eNext.js를 사용한 두 번째 프로젝트였기 때문에 Next.js에 한층 더 익숙해지는 계기가 되었습니다. 개인적으로는 새로운 기능을 이용하여 개발하는 경험만큼 이미 알고 있는 기능을 반복적으로 사용하면서 익숙해지는 경험 또한 중요하다고 생각합니다. 그런 면에서 이번 프로젝트는 저와 Next.js 사이의 거리를 많이 좁혀줬다는 점에서 의미가 있었던 것 같습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한, 실제로 사람들이 센터의 홈페이지를 보고 PT를 등록하도록 유도하는 것이 목적이었기 때문에, 주변 지인들의 의견을 구하면서 어떻게 UI \u0026amp; UX를 구성하는 것이 좋은지 깊게 고민해볼 수 있었습니다. 그리고 많은 사람이 홈페이지에 유입되는 것도 중요했기 때문에 검색엔진최적화(SEO)를 위한 지식을 집중적으로 학습하고 적용해봤다는 점에서도 의미가 있습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : Next.js, TypeScript, Sass\u003c/li\u003e\n\u003cli\u003eDeployment : Vercel\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-친구가-보는-나의-성격은\" class=\"anchor\" aria-hidden=\"true\" href=\"#친구가-보는-나의-성격은\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e친구가 보는 나의 성격은?\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--deployment-url\" class=\"anchor\" aria-hidden=\"true\" href=\"#-deployment-url\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"link\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f517.png\"\u003e🔗\u003c/g-emoji\u003e Deployment URL\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://personality-test-by-friends.com\" rel=\"nofollow\"\u003ehttps://personality-test-by-friends.com\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e내가 생각하는 나의 성격과 친구가 생각하는 나의 성격을 비교함으로써 겉으로 보이는 나의 모습이 어떠한지 파악해볼 수 있는 웹사이트\u003c/strong\u003e입니다. 실제로 지인과 성격 검사를 서로 해주면서 얻은 아이디어를 바탕으로 직접 개발하였습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e백 엔드 개발자와 협업하는 과정에 관해 많이 배울 수 있었습니다. 필요한 명세를 문서로 작성하여 소통하였고, 필요한 지식도 함께 공유하며 학습할 수 있었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eUI \u0026amp; UX를 깊게 고민하며 스스로 디자인하였고, 그 과정에서 canvas API 등을 활용하여 복잡한 애니메이션들을 구현했습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e복수 페이지의 Next.js 웹사이트를 만들면서 라우팅, CSR, SSR, SSG에 대한 개념을 더욱 확실하게 숙지할 수 있었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eGA를 설치하여 트래픽을 파악하고 사용자의 행동을 이벤트 단위로 분석하는 방법을 알게 되었습니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 내가 생각하는 나의 성격 검사하기\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 친구에게 나의 성격 평가 부탁하기\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 나의 성격에 대한 나와 친구의 검사 결과 비교하기\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\"내가 생각하는 나의 성격과 친구가 생각하는 나의 성격은 어떻게 다를까\"\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e최근 성격 검사 등의 심리 검사 웹사이트가 굉장히 다양하게 생산되고 있는 듯합니다. 개발자의 입장에서도 일반적인 웹사이트에 비해 개발 부담이 덜할 뿐 아니라, 사용자의 입장에서도 심심할 때 가볍게 해보기 좋고 그 결과를 친구와 공유하면서 재미난 시간을 보낼 수 있기 때문인 것 같습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e저도 최근에 몇몇 지인들과 재미 삼아 한곳에서 성격 검사를 해본 적이 있습니다. 그런데 어쩌다 보니 그때 서로 성격 검사를 해주는 것은 어떨까 하는 의견이 나왔었고, 그것을 실제로 해보니 다른 사람이 검사한 나의 성격이 내가 검사한 나의 성격과 꽤 다른 부분이 있었음에 흥미를 느꼈었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이것이 바로 이 웹사이트를 개발하게 된 배경입니다. 여러 종류의 성격 검사 웹사이트들이 존재했지만, 내가 검사한 성격과 친구가 검사한 성격을 비교/분석해주는 웹사이트는 발견하지 못했습니다. 실제로 다른 사람들이 나의 성격에 대해서 어떻게 생각하는지, 내 생각과 비교하며 보는 것은 나름 흥미로울 것 같았습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e학부 때 수업에서 팀 프로젝트를 해본 이후로는 팀 프로젝트를 해본 적이 없었기 때문에, 일부러 이번 프로젝트의 백 엔드 개발은 친구 한 명에게 부탁하였습니다. 이는 프론트 엔드 개발자와 백 엔드 개발자가 협업하는 구조를 경험해보기 위함이었습니다. 저는 이미 햇봉 위키라는 프로젝트에서 프론트 엔드와 백 엔드를 둘 다 개발해본 경험이 있었기 때문에, 이러한 구조는 어떻게 다른지 경험해보고 싶었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e결과적으로 백 엔드 개발자와의 협업은 장단점이 뚜렷하였습니다. 단점부터 얘기하자면, 혼자서 개발했다면 없었을 생각의 차이나 일정상의 문제로 인해 개발이 지연된다는 느낌을 받았습니다. 예를 들어, UI \u0026amp; UX 혹은 API의 네이밍과 관련하여 논의할 때도 합의점을 찾기까지 시간이 꽤 걸렸고, 한 사람의 일정이 바빠지면 다른 한 사람의 일정도 영향을 받았습니다. 그래서 혼자 개발을 할 때에 비해 약간의 답답함이 느껴진 것은 사실입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e그러나 장점도 명확했습니다. 대부분의 의사결정을 합의를 통해 진행하기 때문에 혼자서 생각의 오류에 빠지는 걸 피할 수 있었고, 개발 과정에서 함께 소통하며 필요한 지식을 공유할 수 있었습니다. 또한, 초반에 프론트 엔드와 백 엔드 사이의 규약만 잘 정의해둔다면 이후의 과정은 매우 효율적으로 흘러감을 깨달았습니다. 실제로 많은 고민 끝에 UI \u0026amp; UX 및 API 명세를 문서로 작성하여 공유한 이후부터는 각자가 필요한 작업만 효율적으로 진행하였습니다. 그래서 개인적으로는 개발의 규모가 크면 클수록 적절한 규약과 체계 하에 분업을 하는 것이 효율적이고, 그렇지 않다면 혼자서 하는 것이 효율적이라는 결론을 내리게 되었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e한편, 디자이너 없이 직접 모든 UI \u0026amp; UX를 디자인하는 과정도 힘든 만큼 배운 점이 많았습니다. 여러 성격 검사 웹사이트 레퍼런스를 찾아보며 어떠한 디자인이 높은 접근성을 확보할 수 있는지 끊임없이 고민하였고, 그 과정에서 canvas API 등을 활용하여 여러 복잡한 애니메이션들을 구현해보았습니다. 옅은 눈이 내리는 듯한 애니메이션과 성격 검사 결과를 나타내는 두 개의 오각형을 구현하기 위해 canvas API를 정말 열심히 분석했던 기억이 납니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한, 그동안 이론적으로만 알고 있던 Next.js의 라우팅 및 렌더링 관련 개념을 실전에 적용하면서 확실하게 숙지할 수 있었습니다. Next.js로 포트폴리오 웹사이트와 PT 센터 홈페이지를 구현하긴 했지만, 둘 다 하나의 페이지로 이뤄진 정적인 웹사이트였기에 Next.js의 기능을 고도로 활용하진 않았습니다. 이번 프로젝트는 그러한 이론들을 실전에 적용해보면서 확실한 저의 지식으로 만들었다는 점에서 큰 의미가 있습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e마지막으로, 이 웹사이트를 친구들이 SNS를 통해 서로 공유하는 모습을 지켜보는 것은 굉장히 뿌듯했습니다. GA를 설치하여 트래픽을 파악하고 사용자의 행동을 이벤트 단위로 분석하였는데, 이를 통해 당시 얼마나 많은 사용자가 이용해줬는지 볼 수 있다는 것은 큰 행복이었습니다. 지금도 GA를 보면 조금씩 트래픽이 유입되는데, 개발한 보람이 많이 느껴집니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : Next.js, TypeScript, Sass\u003c/li\u003e\n\u003cli\u003eBackend : Django REST Framework\u003c/li\u003e\n\u003cli\u003eDatabase : PostgreSQL\u003c/li\u003e\n\u003cli\u003eDeployment : Vercel, AWS (EC2, RDS, Route 53)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--members\" class=\"anchor\" aria-hidden=\"true\" href=\"#-members\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"family\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f46a.png\"\u003e👪\u003c/g-emoji\u003e Members\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003e박현준 (Frontend) : 본인\u003c/li\u003e\n\u003cli\u003e한재훈 (Backend) : \u003ca href=\"https://github.com/JEOO2327\"\u003ehttps://github.com/JEOO2327\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-똑똑하게-n빵하기-react-native\" class=\"anchor\" aria-hidden=\"true\" href=\"#똑똑하게-n빵하기-react-native\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e똑똑하게 N빵하기 (React Native)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--deployment-url\" class=\"anchor\" aria-hidden=\"true\" href=\"#-deployment-url\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"link\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f517.png\"\u003e🔗\u003c/g-emoji\u003e Deployment URL\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://play.google.com/store/apps/details?id=com.dutch_pay_calculator_rn\" rel=\"nofollow\"\u003ehttps://play.google.com/store/apps/details?id=com.dutch_pay_calculator_rn\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e복잡한 상황에서의 N빵 계산을 도와 누가 누구에게 얼마를 보내야 하는지 계산해 주는 모바일 앱\u003c/strong\u003e입니다. 동아리 활동을 하던 당시 여러 모임에서 N빵 계산 시 어려움을 겪은 몇몇 상황에서 아이디어를 얻어 개발하였습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이미 Android Native로 개발을 완료한 프로젝트였지만, React Native의 학습을 위해 이를 다시 React Native로 개발하였습니다. 이전 프로젝트와 달리 이번에는 전반적인 로직과 UI \u0026amp; UX를 개선하고 실제로 스토어에 출시까지 했다는 점에서 의미가 있습니다. 이제는 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 참석자의 이름∙부담 금액∙비중 입력\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 최소한으로 이체하는 방법 계산\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e아직은 웹 개발자의 커리어를 더 지향하긴 하지만, 모바일 앱 개발도 배워두면 전혀 나쁠 게 없다고 생각합니다. 그래서 이미 숙련된 React를 기반으로 React Native를 빠르게 배워보고 이를 통해 모바일 앱을 하나 출시해봐야겠다고 생각했습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이때 마침 몇 년 전에 Android Native로 간단하게 개발했던 모바일 앱이 떠올랐습니다. 이는 이미 필요한 로직이 대부분 구현되어 있었기 때문에 단순히 React Native라는 기술 스택을 배워보자는 목적에만 집중하기에 안성맞춤이었습니다. 새로운 아이디어를 떠올리려면 별도의 리소스가 많이 소모되어 새로운 기술 스택을 배우는 것에만 온전히 집중하기 어렵기 때문입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e게다가 당시에 개발했던 모바일 앱은 다듬어지지 않았다고 생각하여 실제로 출시를 하지는 않았습니다. 이번 기회에 React Native로 리모델링을 하면서 전반적인 로직과 UI \u0026amp; UX도 함께 개선한다면 실제로 출시까지 노려볼 수 있다고 생각하였습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e이번 프로젝트는 웹 개발에만 집중하던 저의 역량을 모바일 앱으로까지 확장했다는 점에서 굉장한 의미가 있습니다. 사실 몇 년 전에도 Android Native로 모바일 앱을 개발해본 적이 있긴 하지만, 그 이후로 오랜 시간 다시 들여다보지를 않아서 대부분 잊어버린 것이 사실입니다. 그러나 이번 프로젝트를 계기로 이미 숙련된 React를 기반으로 React Native를 빠르게 학습할 수 있었고, 이를 통해 이제 저도 마음만 먹으면 모바일 앱을 개발하고 출시할 수 있겠다는 자신감을 얻게 되었습니다. 여담이지만 React만 알면 빠르게 익혀서 모바일 앱을 개발할 수 있도록 돕는 React Native에 굉장한 경이로움을 느꼈습니다. 프론트 엔드 개발자 시장에서 React를 모르는 사람은 거의 없기에, 이는 모바일 앱의 시장을 전폭 넓혀주었다는 점에서 굉장히 훌륭한 기술이라는 생각이 들었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e한편, 이번 프로젝트는 오랜 기간 묵혀둔 숙제와 같았습니다. 몇 년 전에 이 모바일 앱을 Android Native로 개발했던 당시에는 금방 리모델링하여 출시를 할 수 있을 줄 알았지만, 의외로 오랜 시간 다시 들여다볼 기회가 없어서 이대로 출시되지 않고 끝나는 건가 싶었습니다. 하지만 이번 기회를 통해 그 오랜 염원을 해소할 수 있었고, 대단한 앱은 아니지만 저 자신이 벌여놓은 일을 결국 스스로 마무리했다는 느낌이어서 큰 만족을 느낍니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eMobile App : React Native, Recoil, TypeScript\u003c/li\u003e\n\u003cli\u003eDeployment : Google Play Store\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/article\u003e\u003c/div\u003e", "\u003cdiv id=\"readme\" class=\"md\" data-path=\"README.md\"\u003e\u003carticle class=\"markdown-body entry-content container-lg\" itemprop=\"text\"\u003e\u003ch1 dir=\"auto\"\u003e\u003ca id=\"user-content-무슨-노래-부르지-what-to-sing\" class=\"anchor\" aria-hidden=\"true\" href=\"#무슨-노래-부르지-what-to-sing\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e무슨 노래 부르지? (What to sing?)\u003c/h1\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--deployment-url\" class=\"anchor\" aria-hidden=\"true\" href=\"#-deployment-url\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"link\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f517.png\"\u003e🔗\u003c/g-emoji\u003e Deployment URL\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003ca href=\"https://what-to-sing.ga\" rel=\"nofollow\"\u003ehttps://what-to-sing.ga\u003c/a\u003e\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--summary\" class=\"anchor\" aria-hidden=\"true\" href=\"#-summary\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\"\u003e📌\u003c/g-emoji\u003e Summary\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e\u003cstrong\u003e노래방을 즐기는 사람의 입장에서 자주 부르는 노래를 간편하게 관리할 수 있도록 도와주는 웹사이트\u003c/strong\u003e입니다. 제 취미가 아이디어의 원천이었고, 저와 취미가 같은 사람들에게 도움이 되었으면 하는 마음으로 개발했습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003eFirebase 서비스를 처음 사용해봤다는 것만으로도 의미가 있었지만, 그 과정에서 OAuth 2.0의 개념을 한 번 더 깊게 다지고 NoSQL을 실제로 사용해볼 수 있었다는 점에서 더욱 의미가 있었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e최근에 인기가 많은 Tailwind CSS를 처음으로 사용해보며 이것의 차별적인 유용성을 느낄 수 있었고, 동시에 PostCSS가 무엇인지 배우는 계기도 되었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이론으로만 알고 있던 PWA를 실제로 구현해봄으로써 앞으로 웹 생태계가 뻗어나갈 무한한 가능성과 확장성을 몸소 체감할 수 있었습니다.\u003c/p\u003e\n\u003ch4 dir=\"auto\"\u003e\u003ca id=\"user-content--주요-기능\" class=\"anchor\" aria-hidden=\"true\" href=\"#-주요-기능\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e* 주요 기능\u003c/h4\u003e\n\u003cul class=\"contains-task-list\"\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 자주 부르는 노래의 가수명 및 제목 기록하기\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 간편한 분류를 위해 각 노래에 태깅하기\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 노래의 가수명 및 제목으로 검색해 보기\u003c/li\u003e\n\u003cli class=\"task-list-item\"\u003e\u003cinput type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" checked=\"\"\u003e 가수 또는 태그에 따라 분류해 보기\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--background\" class=\"anchor\" aria-hidden=\"true\" href=\"#-background\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"thinking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f914.png\"\u003e🤔\u003c/g-emoji\u003e Background\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e저는 노래 부르는 것을 굉장히 좋아하여 노래방을 즐깁니다. 그런데 그런 저 역시도 노래방에 갈 때마다 당장 무슨 노래를 부를지 바로 생각이 안 나서 인기차트만 몇 분 동안 찾아보는 수고를 종종 겪습니다. 또한 노래가 너무 좋아서 나중에 노래방에 가면 불러야겠다고 생각해뒀던 노래도 이상하게 막상 노래방만 가면 까먹기도 하고, 주로 슬픈 발라드를 부르는 탓에 친구들과 함께 노래방에 와서 신나는 노래를 불러야 할 때는 제가 부를 수 있는 신나는 노래가 뭐가 있었는지 한참 고민하기도 합니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e저는 그럴 때마다 제가 부를 수 있는 노래들을 어딘가에 적어두고 필요할 때 적절한 노래를 빠르게 찾아볼 수 있는 기능의 서비스가 있었으면 했습니다. 그런데 사실 생각해 보면 결국에는 노래방 전용 메모장 정도의 기능일 뿐이라 제가 직접 구현하기에 전혀 어렵지 않았습니다. 게다가, 가벼운 아이디어가 하나 떠오른 만큼 그동안 사용해보지 않은 기술을 습득하는 계기로 삼기에도 좋겠다고 생각했습니다. 원래 아이디어가 너무 복잡하면 기술 습득에 초점을 맞추기 어려워지기 때문입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e이것이 바로 이 웹사이트를 개발하게 된 배경입니다. 특별히 이런 종류의 서비스가 아직 존재하지도 않았고, 순전히 저의 필요에 의해서 개발하는 거라 재미도 있을 것 같았습니다. 게다가 만약 저를 제외한 단 한 명의 사람이라도 이 서비스에 편의를 느낀다면, 더할 나위 없이 보람찬 사이드 프로젝트가 될 거로 생각했습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--meaning\" class=\"anchor\" aria-hidden=\"true\" href=\"#-meaning\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"mag\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png\"\u003e🔍\u003c/g-emoji\u003e Meaning\u003c/h2\u003e\n\u003cp dir=\"auto\"\u003e많이 들어보긴 했지만 정작 직접 사용해본 적은 없던 Firebase 서비스를 처음으로 사용해본 프로젝트입니다. 조금 더 구체적으로는, 인증 서비스와 실시간 데이터베이스 서비스를 사용해봤습니다. 직접 사용해보고 가장 먼저 크게 느낀 점으로는, 백 엔드 공부에 대한 부담이 있는 프론트 엔드 개발자에게는 정말 귀중한 서비스겠다는 점이었습니다. 그리고 설령 저처럼 백 엔드에 대한 지식이 있는 사람도 프론트 엔드에 집중하고 싶은 사이드 프로젝트를 진행할 때는 백 엔드 개발 및 배포가 상당히 번거롭게 느껴지는데, 그럴 때 프론트 엔드에만 집중할 수 있도록 돕는 매우 유용한 서비스라는 생각도 들었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e또한 단순히 Firebase 서비스를 사용해봤다는 사실에서 그치지 않고, 그 과정에서 OAuth 2.0과 NoSQL의 개념을 한 번 더 깊게 다지는 계기도 되었습니다. Firebase의 인증 서비스가 어떻게 소셜 로그인/회원가입을 SDK로 구현해주는 것일까를 고민하는 과정에서 이미 알고 있던 OAuth 2.0 개념이 조금 더 단단해졌고, 지금까지는 RDB만 사용해봤기에 이론적으로만 간단히 알고 있던 JSON 기반의 NoSQL을 실제로 사용해보는 경험도 할 수 있었기 때문입니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e다음으로, 최근에 나름 명성을 얻고 있던 Tailwind CSS를 처음으로 사용해본 프로젝트이기도 합니다. Bootstrap 등의 기존의 CSS 라이브러리와는 어떤 차이가 있는지 직접 사용해보며 느낄 수 있었고, 처음에는 낯설었지만 익숙해질수록 점점 굉장히 매력적이라는 생각이 들었습니다. 별도의 CSS 파일을 작성하지 않는다는 점이 파일들의 유지보수 관점에서 저에게는 굉장히 편리하게 다가왔던 것 같습니다. 또한, Tailwind CSS를 설정하는 과정에서 PostCSS의 개념도 익힐 수 있었습니다.\u003c/p\u003e\n\u003cp dir=\"auto\"\u003e마지막으로, 드디어 애플도 곧 PWA를 지원한다는 소식을 듣고 평소에 이론으로만 알던 PWA를 한번 구현해보면 좋겠다고 생각하고 있었는데, 마침 이번 프로젝트가 단순하고 가벼웠기에 실제로 PWA 구현을 연습해볼 수 있는 계기도 되었습니다. 이를 통해 생각보다 PWA 구현이 어렵지 않음을 깨달았고, 모바일 앱처럼 기능하는 웹사이트를 만들 수 있게 되었다는 생각에 굉장히 기뻤습니다. 앞으로는 PWA가 모바일 앱만큼이나 큰 인기를 얻지 않을까 하는 생각도 들었습니다.\u003c/p\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content--technology-stacks\" class=\"anchor\" aria-hidden=\"true\" href=\"#-technology-stacks\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\"\u003e🔨\u003c/g-emoji\u003e Technology Stack(s)\u003c/h2\u003e\n\u003cul dir=\"auto\"\u003e\n\u003cli\u003eFrontend : Next.js, Recoil, TypeScript, Sass, PostCSS, Tailwind CSS\u003c/li\u003e\n\u003cli\u003eBackend : Firebase Authentication\u003c/li\u003e\n\u003cli\u003eDatabase : Firebase Realtime Database\u003c/li\u003e\n\u003cli\u003eDeployment : Vercel, Firebase (Authentication, Realtime Database)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cbr\u003e\n\u003ch2 dir=\"auto\"\u003e\u003ca id=\"user-content-️-environment-setup\" class=\"anchor\" aria-hidden=\"true\" href=\"#️-environment-setup\"\u003e\u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\u003c/a\u003e\u003cg-emoji class=\"g-emoji\" alias=\"gear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2699.png\"\u003e⚙️\u003c/g-emoji\u003e Environment Setup\u003c/h2\u003e\n\u003cdiv class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\"\u003e\u003cpre class=\"notranslate\"\u003e\u003ccode\u003e# Install JavaScript Packages\nnpm install\n\n# Run Frontend Server\nnpm run dev\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/article\u003e\u003c/div\u003e"
-          ]
-                                    },
-          "__N_SSG": true
-                                },
-          "page": "/",
-          "query": { },
-          "buildId": "6pQWkR7VWxGKfhMY86hUI",
-          "isFallback": false,
-          "gsp": true,
-          "scriptLoader": []
-                            } < /script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p > < /next-route-announcer></body >
-          );
+          <article class="AboutMe_AboutMe__ysYj_" id="about-me">
+                <div class="AboutMe_content__nt2Em">
+                    <div class="SectionTitle_SectionTitle__aqV31">
+                    <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">ABOUT ME</div>
+                        <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/black-link.png" alt="" /></div>
+                    </div>
+                    <div class="AboutMe_basic-infos__RLZNU">
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/person-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">이름</div>
+                                    <div class="AboutMe_field-value__Or_oj">박현준</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/calendar-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">생년월일</div>
+                                    <div class="AboutMe_field-value__Or_oj">96.02.25</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/geo-alt-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">주소지</div>
+                                    <div class="AboutMe_field-value__Or_oj">안산시 단원구</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/telephone-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">연락처</div>
+                                    <div class="AboutMe_field-value__Or_oj"><a class="AboutMe_email__up_5k" href="tel:010-4582-5037">010-3721-0225</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/envelope-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">이메일</div>
+                                    <div class="AboutMe_field-value__Or_oj"><a class="AboutMe_email__up_5k" href="mailto:hjcdg197@gmail.com">oscarrr0225@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="AboutMe_basic-info-wrapper__p9kae">
+                            <div class="AboutMe_basic-info__vpRfY">
+                                <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src="/images/about-me/pencil-fill.svg" alt="" /></div>
+                                <div class="AboutMe_field__GeyWG">
+                                    <div class="AboutMe_field-label__IZxOZ">학력</div>
+                                    <div class="AboutMe_field-value__Or_oj">한국외국어대학교<br />(독일어과)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="AboutMe_contact-description__u6x4F">* 외주 개발 또는 과외/레슨 문의는&nbsp;<br class="AboutMe_newline__SLvoN" />위 연락처/이메일로 부탁드립니다.</div>
+                </div>
+            </article>
+
+            <article class="Skills_Skills__NOlZH" id="skills">
+                <div class="Skills_content__g0p1s">
+                    <div class="SectionTitle_SectionTitle__aqV31">
+                        <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">SKILLS</div>
+                        <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/black-link.png" alt="" /></div>
+                    </div>
+                    <div class="Skills_tech-stacks-container__wPIVK">
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Frontend</div><img class="Skills_img__f94MA" src="/images/skills/frontend.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Backend</div><img class="Skills_img__f94MA" src="/images/skills/backend.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Mobile App</div><img class="Skills_img__f94MA" src="/images/skills/mobile-app.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Deployment</div><img class="Skills_img__f94MA" src="/images/skills/deployment.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Version Control</div><img class="Skills_img__f94MA" src="/images/skills/version-control.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Communication</div><img class="Skills_img__f94MA" src="/images/skills/communication.png" alt="" />
+                        </div>
+                        <div class="Skills_tech-stacks__f20f8">
+                            <div class="Skills_title__TH2ju">Certificate</div><img class="Skills_img__f94MA" src="/images/skills/certificate.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="Archiving_Archiving__SyeSz" id="archiving">
+                <div class="Archiving_content__qxspn">
+                    <div class="SectionTitle_SectionTitle__aqV31">
+                        <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">ARCHIVING</div>
+                        <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/white-link.png" alt="" /></div>
+                    </div>
+                    <div class="Archiving_container__IK8rE"><a class="Archiving_git-hub___Dnvc" href="https://github.com/hjcdg1">
+                            <div class="Archiving_img-wrapper__AYHcD"><img class="Archiving_img__VxAEe" src="/images/archiving/git-hub.png" alt="" /></div>
+                            <div class="Archiving_url__pLmMb">github.com/pakkyun/-vamos</div>
+                            <div class="Archiving_description__2Z8C8">
+                                <p><b>소스 코드 저장소</b>입니다.</p>
+                                <ul>
+                                    <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
+                                    <li>혼자서 코딩 연습을 위해 끄적이던 소스 코드</li>
+                                    <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
+                                </ul>
+                            </div>
+                        </a><a class="Archiving_tistory__c4e1v" href="https://it-eldorado.tistory.com">
+                            <div class="Archiving_img-wrapper__AYHcD"><img class="Archiving_img__VxAEe" src="/images/archiving/tistory.png" alt="" /></div>
+                            <div class="Archiving_url__pLmMb">pakkyun.tistory.com</div>
+                            <div class="Archiving_description__2Z8C8">
+                                <p><b>공부 및 지식 공유 목적의 블로그</b>입니다.</p>
+                                <ul>
+                                    <li>공부한 것을 진정한 나의 것으로 만들기 위한 기록</li>
+                                    <li>웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
+                                    <li>학부 시절 배운 전공 수업들의 내용 복습 겸 정리</li>
+                                    <li>지식 공유를 통한 선한 영향력 행사</li>
+                                </ul>
+                            </div>
+                        </a></div>
+                </div>
+            </article>
+
+            <article class="Projects_Projects__E9SvD" id="projects">
+                  <div class="Projects_content__HRavM">
+                      <div class="SectionTitle_SectionTitle__aqV31">
+                          <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">PROJECTS</div>
+                          <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/white-link.png" alt="" /></div>
+                      </div>
+                      <div class="Projects_projects__PvBb6">
+                          <div class="Projects_project__hHhvb">
+                              <div class="Projects_title__0IuQ3">무슨 노래 부르지?</div>
+                              <div class="Projects_period__HDo5Z">2022.10&nbsp;<span class="Projects_new-line-chunk__MLz0c">(1人 개인 프로젝트)</span></div>
+                              <div class="Projects_info___utyZ">
+                                  <div class="Projects_img-carousel__e8hwy">
+                                      <div style={sectionTitleStyle} className="Projects_imgs__datEq">
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/8.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/1.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/2.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/3.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/4.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/5.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/6.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/7.jpg" alt="" /></div>
+                                          <div class="Projects_img-wrapper__0b8Tt"><img class="Projects_img__OAyqd" src="/images/projects/what-to-sing/8.jpg" alt="" /></div>
+                                      </div>
+                                      <nav class="Projects_nav__Inoba">
+                                          <div class="Projects_prev__wS3_z"><img src="/images/arrow-left.svg" alt="" /></div>
+                                          <div class="Projects_page__zHIqO">1/8</div>
+                                          <div class="Projects_next__3RYWe"><img src="/images/arrow-right.svg" alt="" /></div>
+                                      </nav>
+                                     </div>
+                                     </div>
+                                     <div class="Projects_descriptions__2g3bi">
+                                      <div class="Projects_main-description__JVRu1"><b>노래방을 즐기는 사람의 입장에서 자주 부르는 노래를 간편하게 관리할 수 있도록 도와주는 웹사이트</b>입니다. 제 취미가 아이디어의 원천이었고, 저와 취미가 같은 사람들에게 도움이 되었으면 하는 마음으로 개발했습니다.<p></p><span class="Projects_red__r_DWh">Firebase</span> 서비스를 처음 사용해봤다는 것만으로도 의미가 있었지만, 그 과정에서 <span class="Projects_red__r_DWh">OAuth 2.0</span>의 개념을 한 번 더 깊게 다지고 <span class="Projects_red__r_DWh">NoSQL</span>을 실제로 사용해볼 수 있었다는 점에서 더욱 의미가 있었습니다.<p></p>최근에 인기가 많은 <span class="Projects_red__r_DWh">Tailwind CSS</span>를 처음으로 사용해보며 이것의 차별적인 유용성을 느낄 수 있었고, 동시에 <span class="Projects_red__r_DWh">PostCSS</span>가 무엇인지 배우는 계기도 되었습니다.<p></p>이론으로만 알고 있던 <span class="Projects_red__r_DWh">PWA</span>를 실제로 구현해봄으로써 앞으로 웹 생태계가 뻗어나갈 무한한 가능성과 확장성을 몸소 체감할 수 있었습니다.<p></p>
+                                          <div class="Projects_show-readme-btn__v1p__">자세히 보기 ▶ README</div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">주요 기능</div>
+                                          <div class="Projects_value__B9RY_">자주 부르는 노래의 가수명 및 제목 기록하기, 간편한 분류를 위해 각 노래에 태깅하기, 노래의 가수명 및 제목으로 검색해 보기, 가수 또는 태그에 따라 분류해 보기</div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">GitHub</div>
+                                          <div class="Projects_value__B9RY_"><a class="Projects_url__5cSRT" href="https://github.com/hjcdg1/what-to-sing">github.com/hjcdg1/what-to-sing</a></div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">URL</div>
+                                          <div class="Projects_value__B9RY_"><a class="Projects_url__5cSRT" href="https://what-to-sing.ga">what-to-sing.ga</a></div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">Frontend</div>
+                                          <div class="Projects_value__B9RY_">Next.js, Recoil, TypeScript, Sass, PostCSS, Tailwind CSS</div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">Backend</div>
+                                          <div class="Projects_value__B9RY_">Firebase Authentication</div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">Database</div>
+                                          <div class="Projects_value__B9RY_">Firebase Realtime Database</div>
+                                      </div>
+                                      <div class="Projects_description___gCV_">
+                                          <div class="Projects_label__OLO6p">Deployment</div>
+                                          <div class="Projects_value__B9RY_">Vercel, Firebase (Authentication, Realtime Database)</div>
+                                     </div>
+                                     </div>
+                                     </div>
+                                     </div>
+                                     </div>
+                                  </article>
+
+          </div>
+          </div>
+    </body>
+        );
 }
 
-          export default App;
+export default App;
