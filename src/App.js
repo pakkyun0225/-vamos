@@ -1,17 +1,17 @@
 import './App.css';
+import Header_Header__bkfyR from './component/Header.js'
 
 function App() {
   const sectionTitleStyle = {
     color: '#000000',
     borderBottomColor: '#cccccc'
   };
-  const menus = ['About me', 'Skills', 'Archiving', 'Project', 'Career'];
   const Aboutme = [
-    { 'image': './images/person-fill.svg', 'label': '이름', 'value': '박현준' },
-    { 'image': './images/calendar-fill.svg', 'label': '생년월일', 'value': '96.02.25' },
-    { 'image': './images/geo-alt-fill.svg', 'label': '주소지', 'value': '안산시 단원구' },
-    { 'image': './images/telephone-fill.svg', 'label': '연락처', 'value': '010-3721-0225' },
-    { 'image': './images/envelope-fill.svg', 'label': '이메일', 'value': 'oscarrr0225@gmail.com' }
+    { 'image': './images/user-3-line.svg', 'label': '이름', 'value': '박현준' },
+    { 'image': './images/calendar-line.svg', 'label': '생년월일', 'value': '96.02.25' },
+    { 'image': './images/map-pin-line.svg', 'label': '주소지', 'value': '안산시 단원구' },
+    { 'image': './images/smartphone-line.svg', 'label': '연락처', 'value': '010-3721-0225' },
+    { 'image': './images/mail-line.svg', 'label': '이메일', 'value': 'oscarrr0225@gmail.com' }
   ];
   const skillTechStacks = [
     { 'skill_tech': 'Frontend', 'source': 'src/images/skills/frontend.png' },
@@ -27,23 +27,12 @@ function App() {
     { 'skill_tech': 'Communication', 'source': '/images/skills/communication.png' },
     { 'skill_tech': 'Certificate', 'source': '/images/skills/certificate.jpg' }
   ];
+  
   return (
     <body>
       <div id="__next">
         <div id="root">
-          <header class="Header_Header__bkfyR">
-            <div class="Header_content__FPfsl">
-              <div class="Header_title__u692O">Pakkyun's Portfolio</div>
-              <div class="Header_navigation-menus__p_A9O">
-                {/* Render the navigation menus */}
-                {menus.map((menu, index) => (
-                  <div key={index} className="Header_navigation-menu__8vdQ1">
-                    {menu}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </header>
+        <div id="Header_Header__bkfyR"></div>
           <div class="Masthead_Masthead__AqKEv">
             <div class="Masthead_content__lswMP">
               <div class="Masthead_title__UKtcP">- 박현준 -<br />웹 개발자 포트폴리오</div>
@@ -57,7 +46,7 @@ function App() {
             <div class="AboutMe_content__nt2Em">
               <div class="SectionTitle_SectionTitle__aqV31">
                 <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">ABOUT ME</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/black-link.png" alt="" /></div>
+                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/pushpin-line.svg" alt="" /></div>
               </div>
               <div class="AboutMe_basic-infos__RLZNU">
                 {/* Render the Aboutme */}
@@ -81,7 +70,7 @@ function App() {
             <div class="Skills_content__g0p1s">
               <div class="SectionTitle_SectionTitle__aqV31">
                 <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">SKILLS</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/black-link.png" alt="" /></div>
+                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./pushpin-line.svg" alt="" /></div>
               </div>
               {/* Render the skill tech stacks */}
               {skillTechStacks.map((stack, index) => (

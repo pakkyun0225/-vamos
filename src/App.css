@@ -289,9 +289,10 @@
   vertical-align: middle;
 }
 .AboutMe_basic-infos__RLZNU{
+  display: flex;
   display: -ms-flexbox;
   flex-flow: row wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
 }
