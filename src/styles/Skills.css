@@ -1,0 +1,37 @@
+.Skills_Skills__NOlZH {
+    background-color: #f9c51d;
+  }
+  .Skills_content__g0p1s {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 88rem;
+  }
+  .SectionTitle_SectionTitle__aqV31 {
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+  }
+  .SectionTitle_text__O7xJQ {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: Black Han Sans,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .SectionTitle_link-wrapper__VI81N {
+    position: absolute;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    opacity: .5;
+    cursor: pointer;
+  }

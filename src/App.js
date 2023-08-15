@@ -1,11 +1,16 @@
 import './App.css';
-import Header_Header__bkfyR from './component/Header.js'
+import Header from "./component/main/Header";
+import AboutMe from "./component/main/AboutMe";
+import Skills from "./component/main/Skills";
+import Archiving from "./component/main/Skills";
+import Project from "./component/main/Skills";
 
 function App() {
   const sectionTitleStyle = {
     color: '#000000',
     borderBottomColor: '#cccccc'
   };
+  const menus = ['About Me', 'Skills', 'Archiving', 'Project', 'Career'];
   const Aboutme = [
     { 'image': './images/user-3-line.svg', 'label': '이름', 'value': '박현준' },
     { 'image': './images/calendar-line.svg', 'label': '생년월일', 'value': '96.02.25' },
@@ -41,143 +46,11 @@ function App() {
               <div class="Masthead_find-out-more__8C_Rn">더 알아보기 ↓</div>
             </div>
           </div>
-
-          <article class="AboutMe_AboutMe__ysYj_" id="about-me">
-            <div class="AboutMe_content__nt2Em">
-              <div class="SectionTitle_SectionTitle__aqV31">
-                <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">ABOUT ME</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/pushpin-line.svg" alt="" /></div>
-              </div>
-              <div class="AboutMe_basic-infos__RLZNU">
-                {/* Render the Aboutme */}
-                {Aboutme.map((information, index) => (
-                  <div key={index} className="AboutMe_basic-info-wrapper__p9kae">
-                    <div class="AboutMe_basic-info__vpRfY">
-                      <div class="AboutMe_icon-img-wrapper__eNduC"><img class="AboutMe_icon-img__xEpEm" src={information.image} alt="" /></div>
-                      <div class="AboutMe_field__GeyWG">
-                        <div class="AboutMe_field-label__IZxOZ">{information.label}</div>
-                        <div class="AboutMe_field-value__Or_oj">{information.value}</div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-                <div class="AboutMe_contact-description__u6x4F">* 외주 개발 또는 과외/레슨 문의는<br class="AboutMe_newline__SLvoN" />위 연락처/이메일로 부탁드립니다.</div>
-              </div>
-            </div>
-          </article>
-
-          <article class="Skills_Skills__NOlZH" id="skills">
-            <div class="Skills_content__g0p1s">
-              <div class="SectionTitle_SectionTitle__aqV31">
-                <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">SKILLS</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./pushpin-line.svg" alt="" /></div>
-              </div>
-              {/* Render the skill tech stacks */}
-              {skillTechStacks.map((stack, index) => (
-                <div key={index} className="Skills_tech-stacks-container__wPIVK">
-                  <div className="Skills_tech-stacks__f20f8">
-                    <div className="Skills_title__TH2ju">{stack.skill_tech}</div>
-                    <img className="Skills_img__f94MA" src={stack.source} alt="" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </article>
-
-          <article class="Archiving_Archiving__SyeSz" id="archiving">
-            <div class="Archiving_content__qxspn">
-              <div class="SectionTitle_SectionTitle__aqV31">
-                <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">ARCHIVING</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/white-link.png" alt="" /></div>
-              </div>
-              <div class="Archiving_container__IK8rE"><a class="Archiving_git-hub___Dnvc" href="https://github.com/pakkyun0225/-vamos">
-                <div class="Archiving_img-wrapper__AYHcD"><img class="Archiving_img__VxAEe" src="/images/archiving/git-hub.png" alt="" /></div>
-                <div class="Archiving_url__pLmMb">https://github.com/pakkyun0225/-vamos</div>
-                <div class="Archiving_description__2Z8C8">
-                  <p><b>소스 코드 저장소</b>입니다.</p>
-                  <ul>
-                    <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
-                    <li>혼자서 코딩 연습을 위해 끄적이던 소스 코드</li>
-                    <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
-                  </ul>
-                </div>
-              </a><a class="Archiving_tistory__c4e1v" href="https://pakkyun.tistory.com">
-                  <div class="Archiving_img-wrapper__AYHcD"><img class="Archiving_img__VxAEe" src="/images/archiving/tistory.png" alt="" /></div>
-                  <div class="Archiving_url__pLmMb">pakkyun.tistory.com</div>
-                  <div class="Archiving_description__2Z8C8">
-                    <p><b>공부 및 지식 공유 목적의 블로그</b>입니다.</p>
-                    <ul>
-                      <li>공부한 것을 진정한 나의 것으로 만들기 위한 기록</li>
-                      <li>웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
-                      <li>학부 시절 배운 전공 수업들의 내용 복습 겸 정리</li>
-                      <li>지식 공유를 통한 선한 영향력 행사</li>
-                    </ul>
-                  </div>
-                </a></div>
-            </div>
-          </article>
-          <article class="Projects_Projects__E9SvD" id="projects">
-            <div class="Projects_content__HRavM">
-              <div class="SectionTitle_SectionTitle__aqV31">
-                <div style={sectionTitleStyle} className="SectionTitle_text__O7xJQ">PROJECTS</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="/images/white-link.png" alt="" /></div>
-              </div>
-              {/* Render Project */}
-              {projects.map((proj, index) => (
-                <div key={index} className="Projects_projects__PvBb6">
-                  <div className="Projects_project__hHhvb">
-                    <div className="Projects_title__0IuQ3">{proj.title}</div>
-                    <div className="Projects_period__HDo5Z">{proj.date}</div>
-                    <div class="Projects_info___utyZ">
-                      <div class="Projects_img-carousel__e8hwy">
-                        <div style={sectionTitleStyle} className="Projects_imgs__datEq">
-                          <div class="Projects_img-wrapper__0b8Tt"><img class={proj.imgsrc} alt="" /></div>
-                          <div class="Projects_img-wrapper__0b8Tt"><img class={proj.imgsrc} alt="" /></div>
-                          <div class="Projects_img-wrapper__0b8Tt"><img class={proj.imgsrc} alt="" /></div>
-                          <div class="Projects_img-wrapper__0b8Tt"><img class={proj.imgsrc} alt="" /></div>
-                          <div class="Projects_img-wrapper__0b8Tt"><img class={proj.imgsrc} alt="" /></div>
-                        </div>
-                        <nav class="Projects_nav__Inoba">
-                          <div class="Projects_prev__wS3_z"><img src="/images/arrow-left.svg" alt="" /></div>
-                          <div class="Projects_page__zHIqO">1/8</div>
-                          <div class="Projects_next__3RYWe"><img src="/images/arrow-right.svg" alt="" /></div>
-                        </nav>
-                      </div>
-                      <div class="Projects_descriptions__2g3bi">
-                        <div class="Projects_main-description__JVRu1">{proj.dsc}
-                          <div class="Projects_show-readme-btn__v1p__">자세히 보기 ▶ README</div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">주요 기능</div>
-                          <div class="Projects_value__B9RY_">{proj.func}</div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">GitHub</div>
-                          <div class="Projects_value__B9RY_"><a class="Projects_url__5cSRT" href={proj.github}>{proj.github}</a></div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">URL</div>
-                          <div class="Projects_value__B9RY_"><a class="Projects_url__5cSRT" href={proj.URL}>{proj.URL}</a></div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">{proj.techstack}</div>
-                          <div class="Projects_value__B9RY_">{proj.tech}</div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">{proj.techstack}</div>
-                          <div class="Projects_value__B9RY_">{proj.tech}</div>
-                        </div>
-                        <div class="Projects_description___gCV_">
-                          <div class="Projects_label__OLO6p">{proj.techstack}</div>
-                          <div class="Projects_value__B9RY_">{proj.tech}</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </article>
+          <div><Header menus = {menus} /></div>
+          <article><AboutMe Aboutme = {Aboutme} /></article>
+          <article><Skills skillTechStacks = {skillTechStacks} /></article>
+          <article><Archiving/></article>
+          <article><Project projects = {projects} /></article>
           <article class="Career_Career__w0U0z" id="career">
             <div class="Career_content__6_8pM">
               <div class="SectionTitle_SectionTitle__aqV31">

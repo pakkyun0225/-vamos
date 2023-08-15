@@ -1,0 +1,45 @@
+.Header_Header__bkfyR {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 10;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Header_content__FPfsl {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    height: 4.5rem;
+    padding: 1.25rem 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Header_title__u692O {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: blue;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.Header_navigation-menus__p_A9O {
+    float: right;
+}
+
+.Header_navigation-menu__8vdQ1 {
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: blue;
+    line-height: 2rem;
+    cursor: pointer;
+}
