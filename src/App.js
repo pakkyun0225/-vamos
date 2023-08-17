@@ -1,8 +1,8 @@
 import './App.css';
 import Header from "./component/main/Header";
 import AboutMe from "./component/main/AboutMe";
-import Skills from "./component/main/Skills";
-import Archiving from "./component/main/Skills";
+import SkillsSection, {SkillStack} from "./component/main/Skills";
+import Archiving from "./component/main/Archiving";
 import Project from "./component/main/Skills";
 
 function App() {
@@ -18,19 +18,19 @@ function App() {
     { 'image': './images/smartphone-line.svg', 'label': '연락처', 'value': '010-3721-0225' },
     { 'image': './images/mail-line.svg', 'label': '이메일', 'value': 'oscarrr0225@gmail.com' }
   ];
-  const skillTechStacks = [
-    { 'skill_tech': 'Frontend', 'source': 'src/images/skills/frontend.png' },
-    { 'skill_tech': 'Backend', 'source': '/images/skills/backend.png' },
-    { 'skill_tech': 'Mobile App', 'source': '/images/skills/mobile-app.png' },
-    { 'skill_tech': 'Communication', 'source': '/images/skills/communication.png' },
-    { 'skill_tech': 'Certificate', 'source': '/images/skills/certificate.jpg' }
+  const skillsData = [
+    { 'title': 'Frontend', 'imgSrc': './images/skills/frontend.png' },
+    { 'title': 'Backend', 'imgSrc': './images/skills/backend.png' },
+    { 'title': 'Mobile App', 'imgSrc': './images/skills/mobile-app.png' },
+    { 'title': 'Communication', 'imgSrc': './images/skills/communication.png' },
+    { 'title': 'Certificate', 'imgSrc': './images/skills/certificate.jpg' }
   ];
   const projects = [
-    { 'skill_tech': 'Frontend', 'source': '/images/skills/frontend.png' },
-    { 'skill_tech': 'Backend', 'source': '/images/skills/backend.png' },
-    { 'skill_tech': 'Mobile App', 'source': '/images/skills/mobile-app.png' },
-    { 'skill_tech': 'Communication', 'source': '/images/skills/communication.png' },
-    { 'skill_tech': 'Certificate', 'source': '/images/skills/certificate.jpg' }
+    { '1': 'Frontend', '6': '/images/skills/frontend.png' },
+    { '2': 'Backend', '7': '/images/skills/backend.png' },
+    { '3': 'Mobile App', '8': '/images/skills/mobile-app.png' },
+    { '4': 'Communication', '9': '/images/skills/communication.png' },
+    { '5': 'Certificate', '10': '/images/skills/certificate.jpg' }
   ];
   
   return (
@@ -48,9 +48,8 @@ function App() {
           </div>
           <div><Header menus = {menus} /></div>
           <article><AboutMe Aboutme = {Aboutme} /></article>
-          <article><Skills skillTechStacks = {skillTechStacks} /></article>
+          <article><SkillsSection skillsData = {skillsData} /></article>
           <article><Archiving/></article>
-          <article><Project projects = {projects} /></article>
           <article class="Career_Career__w0U0z" id="career">
             <div class="Career_content__6_8pM">
               <div class="SectionTitle_SectionTitle__aqV31">
