@@ -7,7 +7,7 @@ function Archiving() {
       <div class="Archiving_content__qxspn">
         <div class="SectionTitle_SectionTitle__aqV31">
           <div className="SectionTitle_text__O7xJQ">ARCHIVING</div>
-          <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/archiving/links.svg" alt="" /></div>
+          <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/pushpin-line.svg" alt="" /></div>
         </div>
         <div class="Archiving_container__IK8rE">
           <a class="Archiving_git-hub___Dnvc" href="https://github.com/pakkyun0225/-vamos">

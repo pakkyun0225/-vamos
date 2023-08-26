@@ -1,0 +1,45 @@
+.Footer_Footer__5wlgh {
+    height: 11rem;
+    padding-top: 3rem;
+    background-color: #222;
+    text-align: center
+}
+
+.Footer_Footer__5wlgh .Footer_icons__sgt9s {
+    margin-bottom: 1rem
+}
+
+.Footer_Footer__5wlgh .Footer_icons__sgt9s .Footer_icon-wrapper___O2A_ {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    padding: 2px;
+    margin: 0 .5rem;
+    border-radius: 2rem;
+    cursor: pointer
+}
+
+.Footer_Footer__5wlgh .Footer_icons__sgt9s .Footer_icon-wrapper___O2A_.Footer_bg-white__mYFhV {
+    background-color: #fff
+}
+
+.Footer_Footer__5wlgh .Footer_icons__sgt9s .Footer_icon-wrapper___O2A_:hover {
+    opacity: .8
+}
+
+.Footer_Footer__5wlgh .Footer_icons__sgt9s .Footer_icon-wrapper___O2A_ .Footer_icon__Zvnct {
+    width: 100%
+}
+
+.Footer_Footer__5wlgh .Footer_copyright__RlJgA {
+    font-weight: 400;
+    font-size: .9rem;
+    color: #f5f5f5
+}
+
+@media(max-width: 576px) {
+    .Footer_Footer__5wlgh .Footer_icons__sgt9s .Footer_icon-wrapper___O2A_:hover {
+        opacity:1
+    }
+}

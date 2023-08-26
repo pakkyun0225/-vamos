@@ -3,11 +3,11 @@ import "../../styles/AboutMe.css";
 
 function AboutMe({Aboutme}) {  
     return (
-<article class="AboutMe_AboutMe__ysYj_" id="about-me">
-            <div class="AboutMe_content__nt2Em">
-              <div class="SectionTitle_SectionTitle__aqV31">
-                <div className="SectionTitle_text__O7xJQ">ABOUT ME</div>
-                <div class="SectionTitle_link-wrapper__VI81N"><img class="SectionTitle_link__WH0x2" src="./images/pushpin-line.svg" alt="" /></div>
+<article class="AboutMe_AboutMe" id="about-me">
+            <div class="AboutMe_content">
+              <div class="SectionTitle_SectionTitle">
+                <div className="SectionTitle_text">ABOUT ME</div>
+                <div class="SectionTitle_link-wrapper"><img class="SectionTitle_link__WH0x2" src="./images/pushpin-line.svg" alt="" /></div>
               </div>
               <div class="AboutMe_basic-infos__RLZNU">
                 {/* Render the Aboutme */}

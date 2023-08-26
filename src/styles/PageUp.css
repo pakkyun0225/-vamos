@@ -1,0 +1,20 @@
+.PageUpButton_PageUpButton {
+    display: none;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    opacity: 0.5
+}
+
+.PageUpButton_PageUpButton.PageUpButton_show {
+    display: block
+}
+
+.PageUpButton_PageUpButton.PageUpButton_img {
+    width: 100%
+}
