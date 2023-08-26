@@ -1,0 +1,103 @@
+.Archiving_Archiving__SyeSz {
+    background-color: #222
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 2rem;
+    margin: 0 auto
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE {
+    display: flex;
+    display: -ms-flexbox;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    -ms-flex-pack: distribute
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 26rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc:hover,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v:hover {
+    transform: translateY(.5rem);
+    -webkit-transform: translateY(.5rem);
+    -ms-transform: translateY(.5rem);
+    transition: transform .2s ease;
+    -webkit-transition: -webkit-transform .2s ease;
+    -o-transition: transform .2s ease
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc:hover .Archiving_url__pLmMb,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v:hover .Archiving_url__pLmMb {
+    text-decoration: underline
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_img-wrapper__AYHcD,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_img-wrapper__AYHcD {
+    display: block;
+    width: 12rem;
+    margin-bottom: 1rem
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_img-wrapper__AYHcD .Archiving_img__VxAEe,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_img-wrapper__AYHcD .Archiving_img__VxAEe {
+    width: 100%
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_url__pLmMb,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_url__pLmMb {
+    margin-bottom: 1rem;
+    color: #258ddb
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_description__2Z8C8,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_description__2Z8C8 {
+    color: #444
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_description__2Z8C8 ul,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_description__2Z8C8 ul {
+    padding-left: 1rem;
+    margin: 0
+}
+
+.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_description__2Z8C8 ul li,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_description__2Z8C8 ul li {
+    margin-bottom: .5rem
+}
+
+@media(max-width: 992px) {
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v {
+        width:100%;
+        max-width: 30rem
+    }
+
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc:first-child,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v:first-child {
+        margin-bottom: 2rem
+    }
+}
+
+@media(max-width: 576px) {
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v {
+        padding:1.5rem
+    }
+
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc:hover,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v:hover {
+        transform: none;
+        -webkit-transform: none;
+        -ms-transform: none
+    }
+
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc:hover .Archiving_url__pLmMb,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v:hover .Archiving_url__pLmMb {
+        text-decoration: none
+    }
+
+    .Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_git-hub___Dnvc .Archiving_description__2Z8C8,.Archiving_Archiving__SyeSz .Archiving_content__qxspn .Archiving_container__IK8rE .Archiving_tistory__c4e1v .Archiving_description__2Z8C8 {
+        font-size: .9rem
+    }
+}

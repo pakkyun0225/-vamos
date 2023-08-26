@@ -1,0 +1,132 @@
+.Header_Header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 10
+}
+
+.Header_Header.Header_has-background-color {
+    background-color: #fff;
+    box-shadow: 0 1px .3rem hsla(0,0%,80%,.8)
+}
+
+.Header_Header.Header_has-background-color .Header_content .Header_navigation-menus>.Header_navigation-menu,.Header_Header.Header_has-background-color .Header_content .Header_title {
+    color: #453a33
+}
+
+.Header_Header.Header_has-background-color .Header_content .Header_navigation-menus>.Header_navigation-menu:hover,.Header_Header.Header_has-background-color .Header_content .Header_title:hover {
+    color: #f4623a
+}
+
+.Header_Header .Header_content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    height: 4.5rem;
+    padding: 1.25rem 2rem;
+    margin: 0 auto
+}
+
+.Header_Header .Header_content .Header_title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsla(0,0%,100%,.7);
+    line-height: 2rem;
+    cursor: pointer
+}
+
+.Header_Header .Header_content .Header_title:hover {
+    color: #fff
+}
+
+.Header_Header .Header_content .Header_navigation-menus {
+    float: right
+}
+
+.Header_Header .Header_content .Header_navigation-menus .Header_navigation-menu {
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: hsla(0,0%,100%,.7);
+    line-height: 2rem;
+    cursor: pointer
+}
+
+.Header_Header .Header_content .Header_navigation-menus .Header_navigation-menu:hover {
+    color: #fff
+}
+
+.Header_Header .Header_content .Header_hamburger-wrapper {
+    float: right;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 3.5rem;
+    height: 3rem;
+    padding: .5rem 0;
+    margin-top: -.5rem;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: .25rem;
+    text-align: center;
+    cursor: pointer
+}
+
+.Header_Header .Header_content .Header_hamburger-wrapper:hover {
+    background-color: #f5f5f5
+}
+
+.Header_Header .Header_folded-navigation-menus {
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    max-height: 15.75rem;
+    padding-left: 2rem;
+    background-color: #fff;
+    transition: max-height .2s ease;
+    -webkit-transition: max-height .2s ease;
+    -o-transition: max-height .2s ease
+}
+
+.Header_Header .Header_folded-navigation-menus.Header_is-folded {
+    max-height: 0
+}
+
+.Header_Header .Header_folded-navigation-menus .Header_folded-navigation-menu {
+    display: table;
+    padding: .75rem 0;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.25rem;
+    cursor: pointer
+}
+
+.Header_Header .Header_folded-navigation-menus .Header_folded-navigation-menu:hover {
+    color: #f4623a
+}
+
+.Header_Header .Header_folded-navigation-menus .Header_folded-navigation-menu:first-child {
+    margin-top: 1rem
+}
+
+.Header_Header .Header_folded-navigation-menus .Header_folded-navigation-menu:last-child {
+    margin-bottom: 1rem
+}
+
+@media(max-width: 576px) {
+    .Header_Header.Header_has-background-color .Header_content .Header_navigation-menus>.Header_navigation-menu:hover,.Header_Header.Header_has-background-color .Header_content .Header_title:hover {
+        color:#453a33
+    }
+
+    .Header_Header.Header_has-background-color .Header_content .Header_hamburger-wrapper:hover {
+        background-color: #fff
+    }
+
+    .Header_Header.Header_has-background-color .Header_folded-navigation-menus .Header_folded-navigation-menu:hover {
+        color: #6c757d
+    }
+}
